@@ -53,4 +53,4 @@ for i in range(n):
 turtle.done()
 ```
 #### Every one get yummy breakfast
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8EJ3zbKTWQ8/0.jpg)](https://www.youtube.com/watch?v=8EJ3zbKTWQ8)
+![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8EJ3zbKTWQ8/0.jpg)
