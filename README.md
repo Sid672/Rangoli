@@ -1,5 +1,6 @@
 ## Breakfast_plate
 ### Program to draw 36 pattern design.
+![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 ### Code
 ```python
 import turtle
