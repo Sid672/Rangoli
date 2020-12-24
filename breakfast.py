@@ -1,8 +1,6 @@
 #Program to draw 36 pattern design.
 #Project name: Breakfast plate
 #writen by Siddharth Singh Chouhan
-#City - Damoh
-#Country- INDIA
 import turtle
 
 #my screen s and turtle t
