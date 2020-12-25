@@ -2,7 +2,7 @@
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
 ### Program to draw 36 pattern design.
 ![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
-# YOUR PLATE
+# Your plate will looks like
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 ### Functions used:
 | Method          | Parameter                              | Description                                                                      |
@@ -22,17 +22,23 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 
 
 ## 5 Steps to draw breakfast plate:
+Follow each step correctly and it's easy to draw this!
 ### 1) Install python turtle 
+PythonTurtle strives to provide the lowest-threshold way to learn Python. Students command an interactive Python shell (similar to the IDLE development environment) and use Python functions to move a turtle displayed on the screen.
 ```pyhton 
 pip install PythonTurtle
 ```
 ### 2) Import python turtle and set screen and turtle name
+Now import turtle and set up screen. So in this case screen name is s and turtle name is t.
+You can change the name like screen name is display or view and turtle name is pet, it depends on you which name you like.
 ```python
 import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
 ```
 ### 3) Set color of background and pen
+For setting background color we are using bgcolor() I am using black color here, for the pen we can use multiple colors like here red, orange, yellow, light green etc.
+You can choose your favorite colors also.
 ```python
 #color of background
 turtle.bgcolor("black")
@@ -60,12 +66,16 @@ for i in range(n):
         t.left(360/ n)
     t.forward(25)
 ```
+It draws a small 3/4 circle which looks like:
+![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
 #### 4.3)Loop to draw 2nd small circle
 ```python
     for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.right(360/ n)
 ```
+The Second circle looks like this and soo on reamaining circle will be drawn. 
+![2ndcircle](https://github.com/Sid672/Breakfast_plate/blob/main/2ndcircle.PNG)
 ### 5) Change color of pen
 ```python
     t.pencolor(col[j])
@@ -77,6 +87,10 @@ for i in range(n):
 
 turtle.done()
 ```
+![3ohhwFujpZQL6TzxBK](https://media.giphy.com/media/3ohhwFujpZQL6TzxBK/giphy.gif)
+
+Color changes from red, orange, yellow, green, blue, purple like in rainbow.
+![colors](https://github.com/Sid672/Breakfast_plate/blob/main/colors.PNG)
 # Your code looks like:
 After completing all steps code seems like this
 ```python
