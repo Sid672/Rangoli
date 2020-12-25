@@ -55,6 +55,8 @@ n = 36
 t.right(270)
 t.forward(25)
 ```
+[Link2 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
+This simply draw a circle.
 #### 4.1)Main loop to draw 36 pattern
 This loop will repeat 36 times because n = 36.
 ```python
@@ -70,6 +72,8 @@ turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pix
         t.left(360/ n)
  t.forward(25)
 ```
+[Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
+You will like this demo code it will give you a nice pattern!
 It draws a small 3/4 circle which looks like:
 ![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
 #### 4.3)Loop to draw 2nd small circle
