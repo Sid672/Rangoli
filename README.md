@@ -74,6 +74,8 @@ turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pix
 ```
 [Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 You will like this demo code it will give you a nice pattern!
+
+
 It draws a small 3/4 circle which looks like:
 ![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
 #### 4.3)Loop to draw 2nd small circle
