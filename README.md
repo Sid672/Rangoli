@@ -82,6 +82,7 @@ Similarly this loop will draw second circle but in right direction.
 The Second circle looks like this and soo on remaining circle will be drawn. 
 ![2ndcircle](https://github.com/Sid672/Breakfast_plate/blob/main/2ndcircle.PNG)
 ### 5) Change color of pen
+Change of color is very important for this j varible is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6. So, by using if condtion j will again equal to 0.
 ```python
     t.pencolor(col[j])
     j = j + 1
@@ -164,7 +165,7 @@ Your output will be:
 
 ## Happy Hacking:
 We all can make beutiful projects with python turtle and can enjoy coding.
-### Some cool are examples:
+### Some cool examples are:
 ![turtle-star](https://docs.python.org/3/_images/turtle-star.png)
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
