@@ -48,6 +48,7 @@ j = 0
 t.pencolor("purple")
 ```
 ### 4) Movement of turtle begin
+36 used here because (360 / 10 = 36) each part is at 10 degree shift from other part. right(270) will point turtle like ^ and then turtle move 25 pixels.
 ```python
 #n = 36 means repeat same pattern 36 times.
 n = 36
@@ -55,26 +56,30 @@ t.right(270)
 t.forward(25)
 ```
 #### 4.1)Main loop to draw 36 pattern
+This loop will repeat 36 times because n = 36.
 ```python
 for i in range(n):
 ```
 #### 4.2)Loop to draw 1st small circle
+Loop will repeat 27 times because 27 = (3 * 36 / 4), it is always better to write this in varible form because it helps in calculation. Like here 3 / 4 of circle is drawn.
+turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pixel to join second circle.
 ```python
 //nested loop
  for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.left(360/ n)
-    t.forward(25)
+ t.forward(25)
 ```
 It draws a small 3/4 circle which looks like:
 ![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
 #### 4.3)Loop to draw 2nd small circle
+Similarly this loop will draw second circle but in right direction.
 ```python
     for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.right(360/ n)
 ```
-The Second circle looks like this and soo on reamaining circle will be drawn. 
+The Second circle looks like this and soo on remaining circle will be drawn. 
 ![2ndcircle](https://github.com/Sid672/Breakfast_plate/blob/main/2ndcircle.PNG)
 ### 5) Change color of pen
 ```python
@@ -90,6 +95,7 @@ turtle.done()
 ![3ohhwFujpZQL6TzxBK](https://media.giphy.com/media/3ohhwFujpZQL6TzxBK/giphy.gif)
 
 Color changes from red, orange, yellow, green, blue, purple like in rainbow.
+
 ![colors](https://github.com/Sid672/Breakfast_plate/blob/main/colors.PNG)
 # Your code looks like:
 After completing all steps code seems like this
