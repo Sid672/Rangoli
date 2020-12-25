@@ -1,6 +1,8 @@
 ## Breakfast_plate : Based on python turtle
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
 ### Program to draw 36 pattern design.
+![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
+# YOUR PLATE
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 ### Functions used:
 | Method          | Parameter                              | Description                                                                      |
@@ -46,19 +48,19 @@ n = 36
 t.right(270)
 t.forward(25)
 ```
-#### Main loop to draw 36 pattern
+#### 4.1)Main loop to draw 36 pattern
 ```python
 for i in range(n):
-   \\body
 ```
-#### Loop to draw 1st small circle
+#### 4.2)Loop to draw 1st small circle
 ```python
+//nested loop
  for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.left(360/ n)
     t.forward(25)
 ```
-#### Loop to draw 2nd small circle
+#### 4.3)Loop to draw 2nd small circle
 ```python
     for i in range(int((3 * n) / 4)):
         t.forward(0.8)
@@ -75,7 +77,7 @@ for i in range(n):
 
 turtle.done()
 ```
-## Your code looks like:
+# Your code looks like:
 After completing all steps code seems like this
 ```python
 #2)Import python turtle and set screen and turtle name
@@ -128,7 +130,14 @@ for i in range(n):
 turtle.done()
 ```
 # Run code:
+Click the green "Run" button on the top of the repl.it windows. A screen will be shown on the right side displaying the turtle graphics that you coded. If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
+Run your code and watch turtle how it moves...
+![breakfast2](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast2.PNG)
+
+Your output will be:
+![breakfast1](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast1.PNG)
 
 
-#### Every one get yummy breakfast
+# Enjoy breakfast
+![nJ2PObJA3EVgc](https://media.giphy.com/media/nJ2PObJA3EVgc/giphy.gif)
 
