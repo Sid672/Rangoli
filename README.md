@@ -1,15 +1,14 @@
 ---
 name: 'Breakfast_plate'
-description: 'Based on python turtle'
-author: 'Sid672',
-img: '![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
+description: 'Making breakfast with python turtle!'
+author: 'Sid672'
 ---
+# Your plate will looks like
+![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
 ## Breakfast_plate : Based on python turtle
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
 ### Program to draw 36 pattern design.
 ![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
-# Your plate will looks like
-![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 ### Functions used:
 | Method          | Parameter                              | Description                                                                      |
 | --------------- | -------------------------------------- | ---------------------------------------------------------------------------------| 
