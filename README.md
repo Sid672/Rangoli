@@ -184,6 +184,3 @@ We all can make beutiful projects with python turtle and enjoy coding.
 ![turtle-star](https://docs.python.org/3/_images/turtle-star.png)
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
-
-## zoom record link:
-https://hackclub.slack.com/files/U01GP8NCYQ4/F01JDE51Q2U/zoom_0.mp4
