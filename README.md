@@ -10,6 +10,7 @@ author: 'Sid672'
 ### Program to draw 36 pattern design.
 ![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
 ### Functions used:
+![](https://media.giphy.com/media/mEOqCPuB1sXUBrLOmC/giphy.gif)
 | Method          | Parameter                              | Description                                                                      |
 | --------------- | -------------------------------------- | ---------------------------------------------------------------------------------| 
 | turtle()        | None                                   | Creates and returns a new turtle object                                          | 
@@ -98,7 +99,6 @@ Change of color is very important for this j varible is used as an index of col 
 
 turtle.done()
 ```
-![3ohhwFujpZQL6TzxBK](https://media.giphy.com/media/3ohhwFujpZQL6TzxBK/giphy.gif)
 
 Color changes from red, orange, yellow, green, blue, purple like in rainbow.
 
