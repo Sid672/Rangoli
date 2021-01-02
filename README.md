@@ -6,12 +6,12 @@ image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
 # Breakfast_plate :
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
-## Breakfast_plate : 
-[Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
-### Program to draw 36 pattern design.
-![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
+
+[Link to the demo.](https://repl.it/@Siddharthsing13/testpy#main.py)
+
+
 ### Functions used:
-![](https://media.giphy.com/media/mEOqCPuB1sXUBrLOmC/giphy.gif)
+
 | Method          | Parameter                              | Description                                                                      |
 | --------------- | -------------------------------------- | ---------------------------------------------------------------------------------| 
 | turtle()        | None                                   | Creates and returns a new turtle object                                          | 
@@ -28,20 +28,29 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 ![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
 
 
-##  Steps to draw breakfast plate:
-Follow each step correctly and it's easy to draw this!
-###  Install python turtle 
+#  Steps to draw breakfast plate:
+##  Install python turtle 
 PythonTurtle strives to provide the lowest-threshold way to learn Python. Students command an interactive Python shell (similar to the IDLE development environment) and use Python functions to move a turtle displayed on the screen.
-```pyhton 
+```python 
 pip install PythonTurtle
 ```
-###  Import python turtle and set screen and turtle name
-Now import turtle and set up screen. So in this case screen name is s and turtle name is t.
-You can change the name like screen name is display or view and turtle name is pet, it depends on you which name you like.
+# Lets talk with python
+## Project Characters: Me and Python.
+- Me:  hey python! buddy can you give me turtle file facilities.(Note: meaning of import turtle)
+```
+Python: Sure sir!
+```
+- Me: Python, my screen name will be s and turtle name will be t.
+```
+Python: ok but sir something is missing?
+        turtle.done() : This function is used to starts event loop – calling Tkinter’s main loop function.
+```
+- Me: Oh you are right turtle
 ```python
 import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
+turtle.done()
 ```
 ###  Set color of background and pen
 For setting background color we are using bgcolor() I am using black color here, for the pen we can use multiple colors like here red, orange, yellow, light green etc.
