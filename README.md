@@ -2,6 +2,7 @@
 name: 'Breakfast_plate'
 description: 'Making breakfast with python turtle!'
 author: 'Sid672'
+image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
 # Your plate will looks like
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
@@ -27,14 +28,14 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 ![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
 
 
-## 5 Steps to draw breakfast plate:
+##  Steps to draw breakfast plate:
 Follow each step correctly and it's easy to draw this!
-### 1) Install python turtle 
+###  Install python turtle 
 PythonTurtle strives to provide the lowest-threshold way to learn Python. Students command an interactive Python shell (similar to the IDLE development environment) and use Python functions to move a turtle displayed on the screen.
 ```pyhton 
 pip install PythonTurtle
 ```
-### 2) Import python turtle and set screen and turtle name
+###  Import python turtle and set screen and turtle name
 Now import turtle and set up screen. So in this case screen name is s and turtle name is t.
 You can change the name like screen name is display or view and turtle name is pet, it depends on you which name you like.
 ```python
@@ -42,7 +43,7 @@ import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
 ```
-### 3) Set color of background and pen
+###  Set color of background and pen
 For setting background color we are using bgcolor() I am using black color here, for the pen we can use multiple colors like here red, orange, yellow, light green etc.
 You can choose your favorite colors also.
 ```python
@@ -53,7 +54,7 @@ col = ["red","orange","yellow","light green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
-### 4) Movement of turtle begin
+###  Movement of turtle begin
 36 used here because (360 / 10 = 36) each part is at 10 degree shift from other part. right(270) will point turtle like ^ and then turtle move 25 pixels.
 ```python
 #n = 36 means repeat same pattern 36 times.
@@ -61,12 +62,12 @@ n = 36
 t.right(270)
 t.forward(25)
 ```
-#### 4.1)Main loop to draw 36 pattern
+#### Main loop to draw 36 pattern
 This loop will repeat 36 times because n = 36.
 ```python
 for i in range(n):
 ```
-#### 4.2)Loop to draw 1st small circle
+#### Loop to draw 1st small circle
 Loop will repeat 27 times because 27 = (3 * 36 / 4), it is always better to write this in varible form because it helps in calculation. Like here 3 / 4 of circle is drawn.
 turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pixel to join second circle.
 ```python
@@ -78,7 +79,7 @@ turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pix
 ```
 It draws a small 3/4 circle which looks like:
 ![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
-#### 4.3)Loop to draw 2nd small circle
+#### Loop to draw 2nd small circle
 Similarly this loop will draw second circle but in right direction.
 ```python
     for i in range(int((3 * n) / 4)):
@@ -87,7 +88,7 @@ Similarly this loop will draw second circle but in right direction.
 ```
 The Second circle looks like this and soo on remaining circle will be drawn. 
 ![2ndcircle](https://github.com/Sid672/Breakfast_plate/blob/main/2ndcircle.PNG)
-### 5) Change color of pen
+###  Change color of pen
 Change of color is very important for this j varible is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6. So, by using if condtion j will again equal to 0.
 ```python
     t.pencolor(col[j])
