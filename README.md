@@ -4,9 +4,9 @@ description: 'Making breakfast with python turtle!'
 author: 'Sid672'
 image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
-# Your plate will looks like
+# Breakfast_plate :
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
-## Breakfast_plate : Based on python turtle
+## Breakfast_plate : 
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
 ### Program to draw 36 pattern design.
 ![358eazWwzOU6c](https://media.giphy.com/media/358eazWwzOU6c/giphy.gif)
