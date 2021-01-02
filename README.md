@@ -30,22 +30,26 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 
 #  Steps to draw breakfast plate:
 ##  Install python turtle 
+![](https://media.giphy.com/media/RlHXMGhyNVIB7vCpb9/giphy.gif)
+
 PythonTurtle strives to provide the lowest-threshold way to learn Python. Students command an interactive Python shell (similar to the IDLE development environment) and use Python functions to move a turtle displayed on the screen.
 ```python 
 pip install PythonTurtle
 ```
 # Lets talk with python
+![](https://media.giphy.com/media/WJZdOtltegO76/giphy.gif)
 ## Project Characters: Me and Python.
+```
 - Me:  hey python! buddy can you give me turtle file facilities.(Note: meaning of import turtle)
-```
-Python: Sure sir!
-```
+  \$ Python: Sure sir!
+  
 - Me: Python, my screen name will be s and turtle name will be t.
+  \$ Python: ok but sir something is missing?
+          turtle.done() : This function is used to starts event loop – calling Tkinter’s main loop function.
+          
+- Me: Oh you are right. This is used to display the screen after. 
 ```
-Python: ok but sir something is missing?
-        turtle.done() : This function is used to starts event loop – calling Tkinter’s main loop function.
-```
-- Me: Oh you are right turtle
+
 ```python
 import turtle
 s = turtle.Screen()
