@@ -167,18 +167,17 @@ Your output will be:
 ![nJ2PObJA3EVgc](https://media.giphy.com/media/nJ2PObJA3EVgc/giphy.gif)
 
 # Links of all demos
-### Complete 
+### Complete breakfast_plate
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
-### simple circle
+### simple pattern
 [Link2 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
-### spiral
+### stair pattern
 [Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
-You will like this demo code it will give you a nice pattern!
 
 
 ## Happy Hacking:
-We all can make beutiful projects with python turtle and enjoy coding.
+We all can make beautiful projects with python turtle, but first, try a rough figure with pen and paper because these are the basics of drawing anything. Keep enjoy hacking!
+
 ### Some cool examples are:
-![turtle-star](https://docs.python.org/3/_images/turtle-star.png)
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
