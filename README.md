@@ -78,7 +78,11 @@ for i in range(n):
        t.left(360/ n)
    t.forward(25)
 ```
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true) ![](https://media.giphy.com/media/TJhyhFZfZ1Gse4U4VN/giphy.gif) ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
+<\p>
+![](https://media.giphy.com/media/TJhyhFZfZ1Gse4U4VN/giphy.gif)
+<\p>
+![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
 #### Loop to draw 2nd small circle
 Similarly this loop will draw second circle but in right direction.
 ```python
