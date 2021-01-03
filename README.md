@@ -5,7 +5,7 @@ author: 'Sid672'
 image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
 # Breakfast_plate :
-![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
+![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 
 [Link to the demo.](https://repl.it/@Siddharthsing13/testpy#main.py)
 
@@ -78,8 +78,7 @@ for i in range(n):
        t.left(360/ n)
    t.forward(25)
 ```
-It draws a small 3/4 circle which looks like:
-![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true) ![](https://media.giphy.com/media/TJhyhFZfZ1Gse4U4VN/giphy.gif) ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
 #### Loop to draw 2nd small circle
 Similarly this loop will draw second circle but in right direction.
 ```python
