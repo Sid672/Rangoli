@@ -95,8 +95,11 @@ To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees
         t.forward(0.8)
         t.right(360/ n)
 ```
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_5.PNG?raw=true)
 ![](https://media.giphy.com/media/26uf6qaxqHpYXgjWU/giphy.gif)
+
 ![](https://media.giphy.com/media/oyPTTOQMtuzthM5xKX/giphy.gif)
+
 ##  Change color of pen
 Change of colour is very important for this j variable is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion j will again equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
 ```python
