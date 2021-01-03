@@ -59,6 +59,13 @@ Before code, you need to understand the pixel and angle.
 - Pixel is the smallest measurable unit on screen. 
 - Angle used in turtle is in degrees.
 
+- Nested loop means loop inside loop.
+`example - 
+Outer loop:
+   Inner loop:
+     #body
+`
+
 Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing towards upward. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
 
 - `Note: Before drawing anything on python turtle you should draw it on paper.`
@@ -79,21 +86,17 @@ for i in range(n):
    t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
-<\p>
-![](https://media.giphy.com/media/TJhyhFZfZ1Gse4U4VN/giphy.gif)
-<\p>
-![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)'
-#### Loop to draw 2nd small circle
-Similarly this loop will draw second circle but in right direction.
+## One more nested loop is neede
+Since the pattern is not the same as the breakfast plate, so we need another loop, to turn the turtle in a way that it moves in a circular path, not a square path like in the above picture. 
+
+To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees`, with the same forward distance `t.forward(0.8)`.
 ```python
     for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.right(360/ n)
 ```
-The Second circle looks like this and soo on remaining circle will be drawn. 
-![2ndcircle](https://github.com/Sid672/Breakfast_plate/blob/main/2ndcircle.PNG)
-###  Change color of pen
-Change of color is very important for this j varible is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6. So, by using if condtion j will again equal to 0.
+##  Change color of pen
+Change of colour is very important for this j variable is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion j will again equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
 ```python
     t.pencolor(col[j])
     j = j + 1
@@ -104,8 +107,6 @@ Change of color is very important for this j varible is used as an index of col 
 
 turtle.done()
 ```
-
-Color changes from red, orange, yellow, green, blue, purple like in rainbow.
 
 ![colors](https://github.com/Sid672/Breakfast_plate/blob/main/colors.PNG)
 # Your code looks like:
