@@ -42,16 +42,17 @@ turtle.done()
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-###  Set color of background and pen
+###  Set colour of background and pen
 To set background colour `turtle.bgcolor("black")` is used, I choose black colour in background.The variable col is a list of different colours `col = ["red","orange","yellow","light green","blue","purple"]` from this list colour of turtle will change. Varible j is used to denote index value of col list, initial j = 0 means col[0] = red color. `pencolor()` is a function used to give color to the turtle `t.pencolor("purple")` , initial pen color of turtle (t) is purple.
 ```python
-#color of bturtle.bgcolor("black")
+#color of background
 turtle.bgcolor("black")
 #color of pen
 col = ["red","orange","yellow","light green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
 ###  Movement of turtle begin
 36 used here because (360 / 10 = 36) each part is at 10 degree shift from other part. right(270) will point turtle like ^ and then turtle move 25 pixels.
