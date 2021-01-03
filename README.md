@@ -10,7 +10,7 @@ image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 [Link to the demo.](https://repl.it/@Siddharthsing13/testpy#main.py)
 
 
-### Functions used:
+# Functions used:
 
 | Method          | Parameter                              | Description                                                                      |
 | --------------- | -------------------------------------- | ---------------------------------------------------------------------------------| 
@@ -22,7 +22,7 @@ image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 | bgcolor()       | Color name                             | Changes the color of the background                                              |
 | done()          | None                                   | This function is used to starts event loop – calling Tkinter’s main loop function| 
 
-### Let's start
+# Let's start
 Create a new Python project on repl.it by visiting https://repl.it/languages/python3
 
 ![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
@@ -175,9 +175,9 @@ Your output will be:
 [Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
 
-## Happy Hacking:
+# Happy Hacking:
 We all can make beautiful projects with python turtle, but first, try a rough figure with pen and paper because these are the basics of drawing anything. Keep enjoy hacking!
 
-### Some cool examples are:
+# Some cool examples are:
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
