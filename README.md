@@ -40,6 +40,7 @@ s = turtle.Screen()
 t = turtle.Turtle()
 turtle.done()
 ```
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
 ###  Set color of background and pen
 For setting background color we are using bgcolor() I am using black color here, for the pen we can use multiple colors like here red, orange, yellow, light green etc.
