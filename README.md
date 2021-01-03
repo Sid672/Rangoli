@@ -34,12 +34,13 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 import turtle
 ```
 ## Set up screen and turtle
-Here `s = turtle.Screen()` means (s) variable is my screen name, which gives a white screen. `t = turtle.Turtle()` (t) a variable is my turtle name, which gives a small black triangle.
+Here `s = turtle.Screen()` means (s) variable is my screen name, which gives a white screen. `t = turtle.Turtle()` (t) a variable is my turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen.
 ```python
 s = turtle.Screen()
 t = turtle.Turtle()
 turtle.done()
 ```
+
 ###  Set color of background and pen
 For setting background color we are using bgcolor() I am using black color here, for the pen we can use multiple colors like here red, orange, yellow, light green etc.
 You can choose your favorite colors also.
