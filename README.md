@@ -42,7 +42,7 @@ turtle.done()
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-###  Set colour of background and pen
+##  Set colour of background and pen
 To set background colour `turtle.bgcolor("black")` is used, I choose black colour in background.The variable col is a list of different colours `col = ["red","orange","yellow","light green","blue","purple"]` from this list colour of turtle will change. Varible j is used to denote index value of col list, initial j = 0 means col[0] = red color. `pencolor()` is a function used to give color to the turtle `t.pencolor("purple")` , initial pen color of turtle (t) is purple.
 ```python
 #color of background
@@ -54,28 +54,29 @@ t.pencolor("purple")
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
-###  Movement of turtle begin
-36 used here because (360 / 10 = 36) each part is at 10 degree shift from other part. right(270) will point turtle like ^ and then turtle move 25 pixels.
+## Let's start drawing
+Before code, you need to understand the pixel and angle.
+- Pixel is the smallest measurable unit on screen. 
+- Angle used in turtle is in degrees.
+
+Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing towards upward. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
+
+- `Note: Before drawing anything on python turtle you should draw it on paper.`
+![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
+
+Let's understand for loop, it will repeat 36 times because n = 36, next for loop will repeat `int((3 * n) / 4) = 21 times`.
+Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
+
 ```python
-#n = 36 means repeat same pattern 36 times.
-n = 36
+n = 36                                          
 t.right(270)
 t.forward(25)
-```
-#### Main loop to draw 36 pattern
-This loop will repeat 36 times because n = 36.
-```python
 for i in range(n):
-```
-#### Loop to draw 1st small circle
-Loop will repeat 27 times because 27 = (3 * 36 / 4), it is always better to write this in varible form because it helps in calculation. Like here 3 / 4 of circle is drawn.
-turtle will move 0.8 pixel then turn 10 degree (27 times).Then a straight 25 pixel to join second circle.
-```python
-//nested loop
- for i in range(int((3 * n) / 4)):
-        t.forward(0.8)
-        t.left(360/ n)
- t.forward(25)
+   #nested loop
+   for i in range(int((3 * n) / 4)):
+       t.forward(0.8)
+       t.left(360/ n)
+   t.forward(25)
 ```
 It draws a small 3/4 circle which looks like:
 ![firstcircle](https://github.com/Sid672/Breakfast_plate/blob/main/firstcircle.PNG)
