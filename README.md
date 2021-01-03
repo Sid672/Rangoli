@@ -34,7 +34,7 @@ Create a new Python project on repl.it by visiting https://repl.it/languages/pyt
 import turtle
 ```
 ## Set up screen and turtle
-Here `s = turtle.Screen()` means (s) variable is my screen name, which gives a white screen. `t = turtle.Turtle()` (t) a variable is my turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen.
+Here `s = turtle.Screen()` means (s) variable is my screen name, which gives a white screen. `t = turtle.Turtle()` (t) a variable is my turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen (written in the last line of code).
 ```python
 s = turtle.Screen()
 t = turtle.Turtle()
@@ -105,6 +105,7 @@ We should move turtle up! Then it will move in a circular path.
 t.left(10)
 t.forward(25)
 ```
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_6.PNG?raw=true)
 
 ##  Change color of pen
 Change of colour is very important for this j variable is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, j cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion j will again equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
@@ -119,60 +120,42 @@ turtle.done()
 
 ![colors](https://github.com/Sid672/Breakfast_plate/blob/main/colors.PNG)
 # Your code looks like:
-After completing all steps code seems like this
+After completing all steps code looks like this.
 ```python
-#2)Import python turtle and set screen and turtle name
 
 import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
-
-#3) Set color of background and pen
-
 #color of background
 turtle.bgcolor("black")
 #color of pen
 col = ["red","orange","yellow","light green","blue","purple"]
 j = 0
 t.pencolor("purple")
-
-
-#4) Movement of turtle begin
-
-#n = 36 means repeat same pattern 36 times.
 n = 36
 t.right(270)
 t.forward(25)
-
-#Main loop to draw 36 pattern
 for i in range(n):
-
-# Loop to draw 1st small circle
-  for i in range(int((3 * n) / 4)):
-      t.forward(0.8)
-      t.left(360/ n)
-  t.forward(25)
-
-# Loop to draw 2nd small circle
-  for i in range(int((3 * n) / 4)):
-      t.forward(0.8)
-      t.right(360/ n)
-
-
-# 5) Change color of pen
-
-  t.pencolor(col[j])
-  j = j + 1
-  if (j >= 6 ):
+   for i in range(int((3 * n) / 4)):
+       t.forward(0.8)
+       t.left(360/ n)
+   t.forward(25)
+   for i in range(int((3 * n) / 4)):
+        t.forward(0.8)
+        t.right(360/ n)
+   t.left(10)
+   t.forward(25)
+   t.pencolor(col[j])
+   j = j + 1
+   if (j >= 6 ):
       j = 0
-  t.left(10)
-  t.forward(25)
 
 turtle.done()
+
 ```
 # Run code:
 Click the green "Run" button on the top of the repl.it windows. A screen will be shown on the right side displaying the turtle graphics that you coded. If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
-Run your code and watch turtle how it moves...
+Run your code and watch the turtle how it moves...
 ![breakfast2](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast2.PNG)
 
 Your output will be:
