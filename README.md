@@ -7,7 +7,7 @@ image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 # Breakfast_plate :
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
 
-[Link to the demo.](https://repl.it/@Siddharthsing13/testpy#main.py)
+[Link to the demo.](https://repl.it/@Siddharthsing13/breakfast#main.py)
 
 
 # Functions used:
@@ -168,7 +168,7 @@ Your output will be:
 
 # Links of all demos
 ### Complete breakfast_plate
-[Link to the demo and code.](https://repl.it/@Siddharthsing13/testpy#main.py)
+[Link to the demo and code.](https://repl.it/@Siddharthsing13/breakfast#main.py)
 ### simple pattern
 [Link2 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
 ### stair pattern
