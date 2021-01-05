@@ -96,9 +96,6 @@ To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees
         t.right(360 / n)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_5.PNG?raw=true)
-![](https://media.giphy.com/media/26uf6qaxqHpYXgjWU/giphy.gif)
-# Idea
-![yPTTOQMtuzthM5xKX](https://media.giphy.com/media/oyPTTOQMtuzthM5xKX/giphy.gif)
 
 We should move turtle up! Then it will move in a circular path.
 ```python 
