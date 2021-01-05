@@ -119,7 +119,7 @@ Change of colour is very important for this j variable is used as an index of co
 turtle.done()
 ```
 
-![colors](https://github.com/Sid672/Breakfast_plate/blob/main/colors.PNG)
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_8.PNG?raw=true)
 # Your code looks like:
 After completing all steps code looks like this.
 ```python
