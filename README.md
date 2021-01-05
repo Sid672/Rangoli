@@ -76,6 +76,7 @@ t.forward(25)
 
 
 - `Tip: Before drawing anything on python turtle you should draw it on paper.`
+
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
@@ -96,6 +97,7 @@ for i in range(n):
 Since the pattern is not the same as the breakfast plate, so we need another loop, to turn the turtle in a way that it moves in a circular path, not a square path like in the above picture. 
 
 To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees`, with the same forward distance `t.forward(0.8)`.
+
 ```python
     for i in range(int((3 * n) / 4)):
         t.forward(0.8)
@@ -103,7 +105,8 @@ To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_5.PNG?raw=true)
 
-We should move turtle up! Then it will move in a circular path.
+Now, the turtle starts drawing the breakfast_plate pattern but in a straight path, not in a circular one so, to move in a circle, we need `t.left(10)` and `t.forward(25)`.
+
 ```python 
 t.left(10)
 t.forward(25)
