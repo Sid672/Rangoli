@@ -60,11 +60,11 @@ Before code, you need to understand the pixel and angle.
 - Angle used in turtle is in degrees.
 
 - Nested loop means loop inside loop.
-`example - 
+```example - 
 Outer loop:
    Inner loop:
      #body
-`
+```
 
 Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing towards upward. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
 ```python
@@ -72,6 +72,7 @@ n = 36
 t.right(270)
 t.forward(25)
 ```
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
 
 
 - `Tip: Before drawing anything on python turtle you should draw it on paper.`
