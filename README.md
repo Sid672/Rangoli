@@ -78,6 +78,9 @@ t.forward(25)
 - `Tip: Before drawing anything on python turtle you should draw it on paper.`
 
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
+
+These are my rough diagram to draw a break_fast plate.
+
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
 
