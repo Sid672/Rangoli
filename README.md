@@ -90,7 +90,7 @@ for i in range(n):
    t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
-## One more nested loop is needed
+## Loop 2 
 Since the pattern is not the same as the breakfast plate, so we need another loop, to turn the turtle in a way that it moves in a circular path, not a square path like in the above picture. 
 
 To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees`, with the same forward distance `t.forward(0.8)`.
