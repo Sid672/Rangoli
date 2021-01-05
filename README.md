@@ -67,17 +67,20 @@ Outer loop:
 `
 
 Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing towards upward. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
+```python
+n = 36                                          
+t.right(270)
+t.forward(25)
+```
 
-- `Note: Before drawing anything on python turtle you should draw it on paper.`
+
+- `Tip: Before drawing anything on python turtle you should draw it on paper.`
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 
 Let's understand for loop, it will repeat 36 times because n = 36, next for loop will repeat `int((3 * n) / 4) = 21 times`.
 Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
 
-```python
-n = 36                                          
-t.right(270)
-t.forward(25)
+```Python
 for i in range(n):
    #nested loop
    for i in range(int((3 * n) / 4)):
