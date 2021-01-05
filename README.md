@@ -181,9 +181,11 @@ We all can make beautiful projects with python turtle, but first, try a rough fi
 
 # Some cool examples are:
 These projects are hand-made, the turtle screen act's like a canvas that can be used to draw diagrams, patterns like these pictures.
+
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
 
-To draw both diagrams use this code.
+To draw both diagrams use the link.
+
 [Link to the code](https://repl.it/@Siddharthsing13/Coolproject1#main.py)
 
