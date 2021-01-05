@@ -78,6 +78,7 @@ t.forward(25)
 - `Tip: Before drawing anything on python turtle you should draw it on paper.`
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
 
 Let's understand for loop, it will repeat 36 times because n = 36, next for loop will repeat `int((3 * n) / 4) = 21 times`.
 Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
