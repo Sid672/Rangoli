@@ -13,8 +13,15 @@ Beautiful plate make food looks more yummy! Let's make your own plate design so 
 
 [Demo Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
 
+# Let's start
+Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
+Create a new Python project on [repl.it](https://repl.it/languages/python3)
+
+![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
 
 # Functions
+These are some functions used in the program. So at least once, go through it. For a better understanding of code, you will need these keywords.
+
 
 | Method          | Parameter                              | Description                                                                      |
 | --------------- | -------------------------------------- | ---------------------------------------------------------------------------------| 
@@ -26,28 +33,32 @@ Beautiful plate make food looks more yummy! Let's make your own plate design so 
 | bgcolor()       | Color name                             | Changes the color of the background                                              |
 | done()          | None                                   | This function is used to starts event loop – calling Tkinter’s main loop function| 
 
-# Let's start
-Create a new Python project on [repl.it](https://repl.it/languages/python3)
-
-![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
+Good, now you know keywords!
 
 
 #  Steps to draw:
-- Import turtle library to draw shapes and patterns.
+First, we need a python turtle library so, import turtle library to draw shapes and patterns.
+
 ```python
 import turtle
 ```
-## Set up screen and turtle
-Here `s = turtle.Screen()` means `s` variable is screen name, which gives a white screen. `t = turtle.Turtle()` `t` is  turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen (written in the last line of code).
+
+# Set up screen and turtle
+A screen is required to draw, the screen is like your canvas, and the turtle is your pen.
+
+Here `s = turtle.Screen()` means `s` variable is screen name, which gives a white screen. `t = turtle.Turtle()`  `t` is  turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen (written in the last line of code).
+
 ```python
 s = turtle.Screen()
 t = turtle.Turtle()
 turtle.done()
 ```
+
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-##  Set background colour
+#  Set background colour
 To set background colour `turtle.bgcolor("black")` is used, you can choose black colour in background.The col is a list of different colours `col = ["red","orange","yellow","light green","blue","purple"]` from the list colour of turtle will be changed. j is used to denote index value of col list, initial j = 0 means col[0] = red color. `pencolor()` is used to give color to the turtle `t.pencolor("purple")` , initial pen color of turtle (t) is purple.
+
 ```python
 #color of background
 turtle.bgcolor("black")
@@ -56,6 +67,7 @@ col = ["red","orange","yellow","light green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
+
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
 ## Let's draw
@@ -69,8 +81,8 @@ Outer loop:
    Inner loop:
      #body
 ```
-
 Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing up. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
+
 ```python
 n = 36                                          
 t.right(270)
@@ -83,7 +95,7 @@ t.forward(25)
 
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 
-These are my rough diagram to draw a breakfast Plate.
+These are my rough diagram to draw a breakfast Plate. Don't worry if you are not good at drawing; it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
@@ -122,6 +134,7 @@ t.forward(25)
 
 ##  Change pen colour
 Change of colour is very important for this `j` is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, `j` cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion `j` will equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
+
 ```python
     t.pencolor(col[j])
     j = j + 1
@@ -167,8 +180,10 @@ turtle.done()
 
 ```
 # Run code:
-Click the green "Run" button on the top of the repl.it window. A screen will be shown on the right side displaying the turtle graphics you coded. If you face any errors, try commenting out each portion of the code and making only a certain section work. This generally helps to figure out the error.
-Run your code and watch the turtle how it moves...
+Click the green "Run" button on the top of the ``repl. it`` windows. A screen will be shown on the right side, displaying the turtle graphics you coded. If you face any errors, try commenting out each portion of the code and making only a certain section work. It generally helps to figure out the error.
+
+Run your code and watch the turtle how it moves
+
 ![breakfast2](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast2.PNG)
 
 Your output will be:
@@ -187,12 +202,8 @@ Your output will be:
 ### Stair pattern
 [Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
-
-# Happy Hacking:
-We all can make beautiful projects with python turtle, first try a rough figure with pen and paper because these are the basics of drawing anything. Keep enjoing, keep hacking!
-
 # Cool examples are:
-These are some interesting project, where the turtle screen act's like a canvas and can be used to draw diagrams, patterns like these pictures.
+These are some enjoyable projects, where the turtle screen act's like a canvas and can be used to draw diagrams and patterns like these pictures.
 
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
@@ -201,3 +212,5 @@ To draw both diagrams use the code link.
 
 [Code Link](https://repl.it/@Siddharthsing13/Coolproject1#main.py)
 
+# Happy Hacking:
+Now it's your turn to make your lunch and dinner plate. You can share your design on https://hackclub.slack.com/archives/C01504DCLVD. I would love to see your creation. Keep enjoying, keep hacking!
