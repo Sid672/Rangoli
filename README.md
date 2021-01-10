@@ -56,7 +56,7 @@ turtle.done()
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-#  Set background colour
+#  Set background-color
 To set background colour `turtle.bgcolor("black")` is used, you can choose black colour in background.The col is a list of different colours `col = ["red","orange","yellow","light green","blue","purple"]` from the list colour of turtle will be changed. j is used to denote index value of col list, initial j = 0 means col[0] = red color. `pencolor()` is used to give color to the turtle `t.pencolor("purple")` , initial pen color of turtle (t) is purple.
 
 ```python
@@ -73,7 +73,7 @@ t.pencolor("purple")
 ## Let's draw
 Before code, you need to understand the pixel and angle.
 - Pixel is the smallest measurable unit on screen. 
-- Angle is used to change the angle of turtle.
+- Angle is used to change the angle of a turtle.
 
 - Nested loop
 ```example - 
@@ -113,7 +113,7 @@ for i in range(n):
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
 ## Second Loop
-Since the pattern is not same as breakfast plate, so we need another loop, to turn the turtle in a way that it moves in a circular path, not a square path like above picture. 
+Since the pattern is not the same as the breakfast plate, we need another loop to turn the turtle to move in a circular path, not a  path like the above picture. 
 
 To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees`, with the same forward distance `t.forward(0.8)`.
 
@@ -124,7 +124,7 @@ To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_5.PNG?raw=true)
 
-Now, turtle starts drawing breakfast Plate pattern but in a straight path, not in a circular one, to move in a circle, we need `t.left(10)` and `t.forward(25)`.
+The turtle starts drawing a breakfast Plate pattern but in a straight path, not in a circular one. To move in a circle, we need `t.left(10)` and `t.forward(25)`.
 
 ```python 
 t.left(10)
@@ -132,7 +132,7 @@ t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_6.PNG?raw=true)
 
-##  Change pen colour
+##  Change pen color
 Change of colour is very important for this `j` is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, `j` cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion `j` will equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
 
 ```python
@@ -145,8 +145,8 @@ turtle.done()
 ```
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_8.PNG?raw=true)
-# Your code looks like:
-After completing all steps code looks like this.
+# Your code looks like this:
+After completing all steps, the code looks like this.
 ```python
 
 import turtle
@@ -191,7 +191,7 @@ Your output will be:
 
 
 # Enjoy breakfast
-## Greatwork you made it!
+## Great work, you made it!
 ![nJ2PObJA3EVgc](https://media.giphy.com/media/nJ2PObJA3EVgc/giphy.gif)
 
 # Links of all demos
@@ -208,7 +208,7 @@ These are some enjoyable projects, where the turtle screen act's like a canvas a
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
 ![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
 
-To draw both diagrams use the code link.
+To draw both diagrams, use the code link.
 
 [Code Link](https://repl.it/@Siddharthsing13/Coolproject1#main.py)
 
