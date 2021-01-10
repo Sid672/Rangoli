@@ -176,12 +176,12 @@ Your output will be:
 ![nJ2PObJA3EVgc](https://media.giphy.com/media/nJ2PObJA3EVgc/giphy.gif)
 
 # Links of all demos
-### Complete breakfast_plate
-[Link to the demo and code.](https://repl.it/@Siddharthsing13/breakfast#main.py)
+### Complete Breakfast plate
+[Code Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
 ### Simple pattern
-[Link2 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
+[Code Link](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
 ### Stair pattern
-[Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
+[Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
 
 # Happy Hacking:
