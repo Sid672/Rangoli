@@ -178,16 +178,16 @@ Your output will be:
 # Links of all demos
 ### Complete breakfast_plate
 [Link to the demo and code.](https://repl.it/@Siddharthsing13/breakfast#main.py)
-### simple pattern
+### Simple pattern
 [Link2 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
-### stair pattern
+### Stair pattern
 [Link3 to the demo and code.](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
 
 # Happy Hacking:
 We all can make beautiful projects with python turtle, first try a rough figure with pen and paper because these are the basics of drawing anything. Keep enjoing, keep hacking!
 
-# Some cool examples are:
+# Cool examples are:
 These are some interesting project, where the turtle screen act's like a canvas and can be used to draw diagrams, patterns like these pictures.
 
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
