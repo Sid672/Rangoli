@@ -202,7 +202,7 @@ Your output will be:
 ### Stair pattern
 [Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
-# Cool examples are:
+# Cool examples:
 These are some enjoyable projects, where the turtle screen act's like a canvas and can be used to draw diagrams and patterns like these pictures.
 
 ![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
@@ -213,4 +213,4 @@ To draw both diagrams, use the code link.
 [Code Link](https://repl.it/@Siddharthsing13/Coolproject1#main.py)
 
 # Happy Hacking:
-Now it's your turn to make your lunch and dinner plate. You can share your design on https://hackclub.slack.com/archives/C01504DCLVD. I would love to see your creation. Keep enjoying, keep hacking!
+Now it's your turn to make your lunch and dinner plate. You can share your design on [Link](https://hackclub.slack.com/archives/C01504DCLVD). I would love to see your creation. Keep enjoying, keep hacking!
