@@ -1,6 +1,6 @@
 ---
-name: 'Breakfast Plate'
-description: 'Making breakfast with python turtle!'
+name: 'Rangoli'
+description: 'Rangoli with python turtle!'
 author: 'Sid672'
 image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
