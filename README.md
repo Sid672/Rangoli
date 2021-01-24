@@ -4,9 +4,8 @@ description: 'Rangoli with python turtle!'
 author: 'Sid672'
 image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 ---
-# Breakfast Plate
-Every day we all eat yummy food in the morning, and if it's too special, we post some stories on Insta that make us feel special.
-Beautiful plate make food looks more yummy! Let's make your own plate design so that you have your own dish for breakfast, lunch, and dinner.
+# Rangoli
+
 
 
 ![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
