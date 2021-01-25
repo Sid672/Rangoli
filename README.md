@@ -36,7 +36,7 @@ Good, now you know keywords!
 
 
 #  Steps to draw:
-First, we need a python turtle library so, import turtle library to draw shapes and patterns.
+First, we need python turtle library so, import turtle library to draw shapes and patterns.
 
 ```python
 import turtle
