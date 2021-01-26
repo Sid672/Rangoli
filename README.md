@@ -8,7 +8,7 @@ image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
 
 
 
-![breakfast](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG)
+![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
 
 [Demo Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
 
