@@ -57,10 +57,9 @@ We can divide program in four parts and the parts are
 ### Python turtle library
 - Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
 
-We know that before drawing anything we need paper, pen and colours. In python turtle screen is your paper, turtle is pen and we can change colours of pen.
+We know that before drawing anything we need paper, pen and colours. In python turtle, screen is your paper, turtle is pen and we can change colours of pen.
 - To import python turtle library write line `import turtle`.
-- To setup a screen(paper) we need a varible `s = turtle.Screen()`. By this varible we can set background colours, add images on screen and change the size of screen.
-- In the same way a varible for pen `t = turtle.Turtle()` is use to draw.
+- To setup a screen(paper) we need a varible `s = turtle.Screen()`. By this varible we can set background colours, add images on screen and change the size of screen. In the same way a varible for pen `t = turtle.Turtle()` is use to draw.
 - `turtle.done()` is used to pause the screen after excution of code. Otherwise you can't see the pattern after execution.
 - Start with this simple code and run it then you will get programming environment of python turtle.
 ```python
@@ -72,10 +71,8 @@ turtle.done()
 - The programming environment for python turtle looks like this:
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-- 
-```python
+- Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first.
 
-```
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
