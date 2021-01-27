@@ -82,7 +82,7 @@ s.setup(626, 313)
 s.bgpic("back.jpg")
 ```
 Add these two lines before `turtle.done()` then run you will get your background.
-![]()
+![](https://github.com/Sid672/Rangoli/blob/main/back2.PNG)
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
