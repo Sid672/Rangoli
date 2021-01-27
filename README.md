@@ -43,7 +43,7 @@ These functions are used in the program. So atleast once, read it.
 
 
 #  Steps:
-Let's divide program into parts :
+We can divide program in four parts and the parts are  
 - Background
 - Outer pattern
 - Inner pattern
@@ -51,13 +51,15 @@ Let's divide program into parts :
 
 ![](https://github.com/Sid672/Rangoli/blob/main/steps.png)
 
-We need python turtle library so, import turtle library to draw shapes and patterns.
+# Background
+
+### Python turtle library
+Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
+
 
 ```python
 import turtle
 ```
-
-# Set up screen and turtle
 A screen is required to draw, the screen is like your canvas, and the turtle is your pen.
 
 Here `s = turtle.Screen()` means `s` variable is screen name, which gives a white screen. `t = turtle.Turtle()`  `t` is  turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen (written in the last line of code).
