@@ -6,15 +6,13 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 ---
 # Rangoli
 
-
-
 ![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
 
 [Demo Link](https://repl.it/@Siddharthsing13/rangoli#main.py)
 
 # Let's start
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
-Now, create a new Python project on [repl.it](https://repl.it/languages/python3). For example in demo video.
+Now, create a new python project on [repl.it](https://repl.it/languages/python3). You can also follow steps in demo video to create repl.
 
 ![](https://github.com/Sid672/Rangoli/blob/main/rangolidemo.mp4)
 
