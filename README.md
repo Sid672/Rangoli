@@ -12,9 +12,9 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 
 # Let's start
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
-Now, create a new python project on [repl.it](https://repl.it/languages/python3). You can also follow steps in demo video to create repl.
+Now, create a new python project on [repl.it](https://repl.it/languages/python3). 
 
-#### Demo video
+- You can also follow steps in demo video to create repl.
 ![](https://media.giphy.com/media/3y8Rl5IC2gKjhfdGLQ/giphy.gif)
 
 # Functions 
@@ -56,9 +56,9 @@ We can divide program in four parts and the parts are
 ### Python turtle library
 - Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
 
-We know that before drawing anything we need paper, pen and colors. In python turtle screen is paper, turtle is pen and we can change colors of pen.
+We know that before drawing anything we need paper, pen and colours. In python turtle screen is your paper, turtle is pen and we can change colours of pen.
 
-- Start with this simple code.
+- Start with this simple code and run it then you will get programming environment of python turtle.
 ```python
 import turtle
 s = turtle.Screen()
