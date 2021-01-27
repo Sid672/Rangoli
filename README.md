@@ -72,6 +72,7 @@ turtle.done()
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
 - Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first.
+- [Link of image used in project]() 
 - To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
@@ -86,11 +87,11 @@ Add these two lines before `turtle.done()` then run you will get your background
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
-## Let's draw
-Before code, you need to understand the pixel and angle.
-- Pixel is the smallest measurable unit on screen. 
-- Angle is used to change the angle of a turtle.
+# Outer Pattern
 
+## Let's draw
+We need to understand some terms pixel and nested loop.
+- Pixel is the smallest measurable unit on screen.
 - Nested loop
 ```example - 
 Outer loop:
