@@ -18,8 +18,8 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 ![](https://media.giphy.com/media/3y8Rl5IC2gKjhfdGLQ/giphy.gif)
 
 # Functions 
-Before any project everyone need some knowledge. Don't worry you don't need to remember all keywords. Only try to understand meaning of functions.
-These functions are used in the program. So atleast once, read it.
+- Before any project everyone need some knowledge. Don't worry you don't need to remember all keywords. Only try to understand use of functions.
+- These functions are used in the program. So atleast once, read it.
 
 
 | Method          | Parameter                              | Description                                                                      |
@@ -54,22 +54,18 @@ We can divide program in four parts and the parts are
 # Background
 
 ### Python turtle library
-Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
+- Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
 
+We know that before drawing anything we need paper, pen and colors. In python turtle screen is paper, turtle is pen and we can change colors of pen.
 
+- Start with this simple code.
 ```python
 import turtle
-```
-A screen is required to draw, the screen is like your canvas, and the turtle is your pen.
-
-Here `s = turtle.Screen()` means `s` variable is screen name, which gives a white screen. `t = turtle.Turtle()`  `t` is  turtle name, which gives a small black triangle.` turtle.done()` is used to maintain the screen (written in the last line of code).
-
-```python
 s = turtle.Screen()
 t = turtle.Turtle()
 turtle.done()
 ```
-
+- The programming environment for python turtle looks like this:
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
 #  Set background-color
