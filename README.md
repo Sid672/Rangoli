@@ -75,6 +75,8 @@ turtle.done()
 - To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
+- After upload   
+
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
 ## Let's draw
