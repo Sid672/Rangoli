@@ -2,7 +2,7 @@
 name: 'Rangoli'
 description: 'Rangoli with python turtle!'
 author: 'Sid672'
-image: 'https://github.com/Sid672/Breakfast_plate/blob/main/breakfast.PNG'
+image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 ---
 # Rangoli
 
