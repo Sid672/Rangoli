@@ -14,7 +14,7 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 
 # Let's start
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
-Create a new Python project on [repl.it](https://repl.it/languages/python3)
+Now, create a new Python project on [repl.it](https://repl.it/languages/python3). For example in demo video.
 
 ![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
 
