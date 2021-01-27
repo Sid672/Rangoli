@@ -10,7 +10,7 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 
 ![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
 
-[Demo Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
+[Demo Link](https://repl.it/@Siddharthsing13/rangoli#main.py)
 
 # Let's start
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
