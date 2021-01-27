@@ -14,10 +14,12 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
 Now, create a new python project on [repl.it](https://repl.it/languages/python3). You can also follow steps in demo video to create repl.
 
+#### Demo video
 ![](https://media.giphy.com/media/3y8Rl5IC2gKjhfdGLQ/giphy.gif)
 
-# Functions
-These are some functions used in the program. So at least once, go through it. For a better understanding of code, you will need these keywords.
+# Functions 
+Before any project everyone need some knowledge. Don't worry you don't need to remember all keywords. Only try to understand meaning of functions.
+These functions are used in the program. So atleast once, read it.
 
 
 | Method          | Parameter                              | Description                                                                      |
@@ -26,11 +28,18 @@ These are some functions used in the program. So at least once, go through it. F
 | right()         | value of angle is degree               | Turns the turtle clockwise                                                       | 
 | left()          | value of angle is degree               | Turns the turtle counter clockwise                                               |
 | forward()       | distance – a number (integer or float) | Moves the turtle forward by the specified amount                                 | 
-| pencolor()      | Color name                             | Changes the color of the turtle’s pen                                            | 
-| bgcolor()       | Color name                             | Changes the color of the background                                              |
+| pencolor()      | Color name                             | Changes the color of the turtle’s pen                                            |
+| fillcolor()	   | Color name	                          | Changes the color of the turtle will use to fill a polygon                       |
+| goto()	         | x, y	                                | Move the turtle to position x,y                                                  |
+| up()	         | None	                                | Picks up the turtle’s Pen                                                        |
+| down()	         | None	                                | Puts down the turtle’s Pen                                                       |
+| bgpic()         | image name                             | Changes the background                                                           |
+| stamp()	      | None	                                | Leaves an impression of a turtle shape at the current location                   |
+| shape()	      | shapename	                             | Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’                               |
+| setup()         | width, height                          | Sets screen size                                                                 |
+| speed()         | value in integer                       | Increases turtle speed. fastest: 0,fast: 10,normal: 6,slow: 3,slowest: 1         |  
 | done()          | None                                   | This function is used to starts event loop – calling Tkinter’s main loop function| 
 
-Good, now you know keywords!
 
 
 #  Steps to draw:
