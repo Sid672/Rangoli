@@ -37,7 +37,7 @@ These functions are used in the program. So atleast once, read it.
 | stamp()	      | None	                                | Leaves an impression of a turtle shape at the current location                   |
 | shape()	      | shapename	                             | Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’                               |
 | setup()         | width, height                          | Sets screen size                                                                 |
-| speed()         | value in integer                       | Increases turtle speed. fastest: 0,fast: 10,normal: 6,slow: 3,slowest: 1         |  
+| speed()         | value in integer                       | Increases turtle speed. fastest: 0, fast: 10, normal: 6, slow: 3, slowest: 1     |  
 | done()          | None                                   | This function is used to starts event loop – calling Tkinter’s main loop function| 
 
 
