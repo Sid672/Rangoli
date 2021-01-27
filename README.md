@@ -44,10 +44,12 @@ These functions are used in the program. So atleast once, read it.
 
 #  Steps:
 Let's divide program into parts :
-- Background chage
+- Background
 - Outer pattern
 - Inner pattern
 - Combination: outer + inner patterns
+
+![](https://github.com/Sid672/Rangoli/blob/main/steps.png)
 
 We need python turtle library so, import turtle library to draw shapes and patterns.
 
