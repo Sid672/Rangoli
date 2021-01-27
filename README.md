@@ -16,7 +16,7 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
 Now, create a new Python project on [repl.it](https://repl.it/languages/python3). For example in demo video.
 
-![KRiymXy9LEKXwQMUGv](https://media.giphy.com/media/KRiymXy9LEKXwQMUGv/giphy.gif)
+![](https://github.com/Sid672/Rangoli/blob/main/rangolidemo.mp4)
 
 # Functions
 These are some functions used in the program. So at least once, go through it. For a better understanding of code, you will need these keywords.
