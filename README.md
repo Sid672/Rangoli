@@ -42,8 +42,13 @@ These functions are used in the program. So atleast once, read it.
 
 
 
-#  Steps to draw:
-First, we need python turtle library so, import turtle library to draw shapes and patterns.
+#  Steps:
+Let's divide program into parts :
+- Background chage
+- Outer pattern
+- inner pattern
+
+We need python turtle library so, import turtle library to draw shapes and patterns.
 
 ```python
 import turtle
