@@ -46,7 +46,8 @@ These functions are used in the program. So atleast once, read it.
 Let's divide program into parts :
 - Background chage
 - Outer pattern
-- inner pattern
+- Inner pattern
+- Combination: outer + inner patterns
 
 We need python turtle library so, import turtle library to draw shapes and patterns.
 
