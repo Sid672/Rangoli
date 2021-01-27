@@ -72,7 +72,7 @@ turtle.done()
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
 - Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first.
-- [Link of image used in project]() 
+- [Link of image used in project](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
 - To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
