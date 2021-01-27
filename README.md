@@ -75,7 +75,14 @@ turtle.done()
 - To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
-- After upload   
+- After uploading image then setup screen size `s.setup(width, height)`. 
+- To set background  `s.bgpic("imagename.png/jpg")` is used.
+```Python
+s.setup(626, 313)
+s.bgpic("back.jpg")
+```
+Add these two lines before `turtle.done()` then run you will get your background.
+![]()
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
 
