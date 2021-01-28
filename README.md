@@ -89,9 +89,26 @@ Add these two lines before `turtle.done()` then run you will get your background
 # Outer Pattern
 
 ## Let's draw
+- `Tip: Before drawing anything on python turtle you should draw it on paper.`
+
+![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
+
+These are my rough diagram to draw Rangoli. Don't worry if you are not good in drawing, it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
+
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
+![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
+
 - We can design outer pattern in lot of varitions. In this project we are using only one variation you can try other variations also.
+
 - Other variations looks like.
-![]()
+![](https://github.com/Sid672/Rangoli/blob/main/v.png?raw=true)
+
+- Now we should focus back on project design then with simple change in code we can acchive other variations also.  
+
+
+
+
+
 
 
 We need to understand some terms pixel and nested loop.
@@ -111,15 +128,6 @@ t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
 
-
-- `Tip: Before drawing anything on python turtle you should draw it on paper.`
-
-![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
-
-These are my rough diagram to draw a breakfast Plate. Don't worry if you are not good at drawing; it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
-
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
 
 Let's understand for loop, it will repeat 36 times because n = 36, next for loop repeat `int((3 * n) / 4) = 21 times`.
 Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
