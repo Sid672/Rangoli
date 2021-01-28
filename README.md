@@ -71,7 +71,8 @@ turtle.done()
 - The programming environment for python turtle looks like this:
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-- Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first. [Link of image used in project](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
+- Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first. 
+- Link of image used in project [link](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
 - To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
@@ -93,7 +94,7 @@ Add these two lines before `turtle.done()` then run you will get your background
 
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 
-These are my rough diagram to draw Rangoli. Don't worry if you are not good in drawing, it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
+These are my rough diagram of Rangoli. Don't worry if you are not good in drawing, it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
@@ -105,22 +106,17 @@ These are my rough diagram to draw Rangoli. Don't worry if you are not good in d
 
 - Now we should focus back on project design then with simple change in code we can acchive other variations also.  
 
-
-
-
-
-
-
 We need to understand some terms pixel and nested loop.
 - Pixel is the smallest measurable unit on screen.
 - Nested loop
+   - loop inside loop.
 ```example - 
 Outer loop:
    Inner loop:
      #body
 ```
-Variable `n = 36` is used to repeat the pattern ![](https://github.com/Sid672/Breakfast_plate/raw/main/firstcircle.PNG) 36 times. `t.right(270)` here angle of turtle changes to 270 degrees at this position turtle will be facing up. Line `t.forward(25)` moves the turtle 25 pixels forward in an upward direction.
-
+- We have seen that the same pattern is repeated. If you count you will find that pattern is repeated 36 times. So we need a varible `n = 36`.
+- According to rough diagram we should move turn turtle upward `t.right(270)`, move 25 pixels `t.forward(25)`.
 ```python
 n = 36                                          
 t.right(270)
