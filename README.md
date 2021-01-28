@@ -44,7 +44,7 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 
 
 #  Steps:
-We can divide program in four parts and the parts are  
+We can divide program in four parts.  
 - Background
 - Outer pattern
 - Inner pattern
@@ -104,9 +104,23 @@ These are my rough diagram of Rangoli. Don't worry if you are not good in drawin
 - Other variations looks like.
 ![](https://github.com/Sid672/Rangoli/blob/main/v.png?raw=true)
 
-- Now we should focus back on project design then with simple change in code we can acchive other variations also.  
-
-We need to understand some terms pixel and nested loop.
+- Now we should focus back on project design then with simple change in code we can acchive other variations also. 
+- Since all patterns are colour full so we need colours.
+- Original colour of pen is black. We can change colour of pen by using a list.
+- List is like a container so we can store our colours in list `col = ["red","orange","yellow","green","blue","purple"]`. We also need a varible to access the colours `j = 0`. 
+```
+Example- col[j] = red, when j = 0
+col[j] = orange, when j = 1
+```
+- By changing the value of j, we change colour of pen.
+- We should initialize the colour of pen for this `t.pencolor("purple")` is used.
+```Python
+#Colours :
+col = ["red","orange","yellow","green","blue","purple"]
+j = 0
+t.pencolor("purple")
+```
+We need to understand some terms before drawing.
 - Pixel is the smallest measurable unit on screen.
 - Nested loop
    - loop inside loop.
@@ -115,8 +129,8 @@ Outer loop:
    Inner loop:
      #body
 ```
-- We have seen that the same pattern is repeated. If you count you will find that pattern is repeated 36 times. So we need a varible `n = 36`.
-- According to rough diagram we should move turn turtle upward `t.right(270)`, move 25 pixels `t.forward(25)`.
+- You have seen that the same pattern is repeated. If you count, you will find that pattern is repeated 36 times. So we need a varible `n = 36`.
+- According to rough diagram we should turn turtle upward `t.right(270)`then move 25 pixels `t.forward(25)`.
 ```python
 n = 36                                          
 t.right(270)
@@ -124,8 +138,7 @@ t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
 
-
-Let's understand for loop, it will repeat 36 times because n = 36, next for loop repeat `int((3 * n) / 4) = 21 times`.
+- Next we add some for loop, it will repeat 36 times because n = 36, next for loop repeat `int((3 * n) / 4) = 21 times`.
 Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
 
 ```Python
