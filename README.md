@@ -89,6 +89,10 @@ Add these two lines before `turtle.done()` then run you will get your background
 # Outer Pattern
 
 ## Let's draw
+- We can design outer pattern with lot of varitions. In this project we are using only one varition you can try other varitions also.
+- Other varitions looks like.
+
+
 We need to understand some terms pixel and nested loop.
 - Pixel is the smallest measurable unit on screen.
 - Nested loop
