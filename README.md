@@ -89,8 +89,9 @@ Add these two lines before `turtle.done()` then run you will get your background
 # Outer Pattern
 
 ## Let's draw
-- We can design outer pattern with lot of varitions. In this project we are using only one varition you can try other varitions also.
-- Other varitions looks like.
+- We can design outer pattern in lot of varitions. In this project we are using only one variation you can try other variations also.
+- Other variations looks like.
+![]()
 
 
 We need to understand some terms pixel and nested loop.
