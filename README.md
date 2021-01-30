@@ -9,7 +9,7 @@ Hey!,
 
 Do you know Rangoli?
 
-If yes, good!. If no, then it's ok. Let me introduce Rangoli, according to google `Rangoli is an art form, originating in the Indian subcontinent, in which patterns are created on the floor or the ground using materials such as colored rice, colored sand, quartz powder, flower petals, and colored rocks.`. For me, it's a beautiful pattern. Today, we draw Rangoli.
+If yes, good!. If no, then it's ok. Let me introduce Rangoli, according to google `Rangoli is an art form, originating in the Indian subcontinent, in which patterns are created on the floor or the ground using materials such as colored rice, colored sand, quartz powder, flower petals, and colored rocks`. For me, it's a beautiful pattern. Today, we draw Rangoli.
 
 ![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
 
