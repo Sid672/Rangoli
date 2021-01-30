@@ -371,38 +371,18 @@ for i in range(m):
 turtle.done()
 
 ```
-# Run code:
-Click the green "Run" button on the top of the ``repl. it`` windows. A screen will be shown on the right side, displaying the turtle graphics you coded. If you face any errors, try commenting out each portion of the code and making only a certain section work. It generally helps to figure out the error.
 
-Run your code and watch the turtle how it moves
+# Great work!
+![](https://media.giphy.com/media/tIeCLkB8geYtW/giphy.gif)
 
-![breakfast2](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast2.PNG)
-
-Your output will be:
-![breakfast1](https://github.com/Sid672/Breakfast_plate/blob/main/breakfast1.PNG)
-
-
-# Enjoy breakfast
-## Great work, you made it!
-![nJ2PObJA3EVgc](https://media.giphy.com/media/nJ2PObJA3EVgc/giphy.gif)
 
 # Links of all demos
-### Complete Breakfast plate
+### Rangoli
 [Code Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
-### Simple pattern
+### Variations of outer pattern
 [Code Link](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
-### Stair pattern
+### Variations of inner pattern
 [Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
-# Cool examples:
-These are some enjoyable projects, where the turtle screen act's like a canvas and can be used to draw diagrams and patterns like these pictures.
-
-![1536865435321_bd598138637586247b2433a96371534d](https://storage.googleapis.com/replit/images/1536865435321_bd598138637586247b2433a96371534d.pn)
-![1536865448102_a542f76811f1df3d35a97ffd613c3e39](https://storage.googleapis.com/replit/images/1536865448102_a542f76811f1df3d35a97ffd613c3e39.pn)
-
-To draw both diagrams, use the code link.
-
-[Code Link](https://repl.it/@Siddharthsing13/Coolproject1#main.py)
-
 # Happy Hacking:
-Now it's your turn to make your lunch and dinner plate. You can share your design on [Link](https://hackclub.slack.com/archives/C01504DCLVD). I would love to see your creation. Keep enjoying, keep hacking!
+Now it's your turn to make your Rangoli. You can share your design on [Link](https://hackclub.slack.com/archives/C01504DCLVD). I would love to see your creation. Keep enjoying, keep hacking!
