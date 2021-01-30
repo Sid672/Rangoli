@@ -76,9 +76,9 @@ turtle.done()
 - The programming environment for python turtle looks like this:
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-- Now its time to choose background image you can download some images or use image you have. You should upload that image on your repl first. 
-- Link of image used in project [link](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
-- To upload image click on last option of `Files` which is above of `main.py` then choose Upload file.
+- Now it's time to choose a background image you can download some images or use an image, you have. You should upload that image on your repl first. 
+- Link of the image used in the project : [link](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
+- To upload an image click on the last option of `Files` which is above `main.py` then choose Upload file.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
 - After uploading image then setup screen size `s.setup(width, height)`. 
@@ -90,7 +90,7 @@ s.setup(626, 313)
 s.bgpic("back.jpg")
 t.speed(0)
 ```
-Add these two lines before `turtle.done()` then run you will get your background.
+Add these two lines before `turtle. done()` then run it, we will get our background.
 ![](https://github.com/Sid672/Rangoli/blob/main/back2.PNG)
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
