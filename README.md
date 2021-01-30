@@ -7,9 +7,9 @@ image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 # Rangoli
 Hey!,
 
-- Do you know about Rangoli?
+Do you know Rangoli?
 
-If yes good!. If no then it's ok. Let me introduce Rangoli according to google `Rangoli is an art form, originating in the Indian subcontinent, in which patterns are created on the floor or the ground using materials such as coloured rice, coloured sand, quartz powder, flower petals, and coloured rocks.`for me its a beautiul pattern. So today, we will draw Rangoli.
+If yes, good!. If no, then it's ok. Let me introduce Rangoli, according to google `Rangoli is an art form, originating in the Indian subcontinent, in which patterns are created on the floor or the ground using materials such as colored rice, colored sand, quartz powder, flower petals, and colored rocks.`. For me, it's a beautiful pattern. Today, we draw Rangoli.
 
 ![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
 
@@ -24,8 +24,8 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 ![](https://media.giphy.com/media/3y8Rl5IC2gKjhfdGLQ/giphy.gif)
 
 # Functions 
-- Before any project everyone need some knowledge. Don't worry you don't need to remember all keywords. Only try to understand use of functions.
-- These functions are used in the program. So atleast once, read it.
+- Before any project, everyone needs some knowledge. Don't worry, you don't need to remember all keywords. Only try to understand the use of         functions.
+- The functions that we use in the program are given below. So at least read it once.
 
 
 | Method          | Parameter                              | Description                                                                      |
@@ -49,7 +49,7 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 
 
 #  Steps:
-We can divide program in four parts.  
+We can divide the program into four parts.  
 - Background
 - Outer pattern
 - Inner pattern
@@ -60,13 +60,13 @@ We can divide program in four parts.
 # Background
 
 ### Python turtle library
-- Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns, can learn about functions, loops, varibles and lot more in programming. It's like baby building blocks for coders.
+- Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns can learn about functions, loops, variables, and a lot more in programming. It's like baby building blocks for coders.
 
-We know that before drawing anything we need paper, pen and colours. In python turtle, screen is your paper, turtle is pen and we can change colours of pen.
+We know that before drawing anything we need paper, a pen, and colors. In the python turtle, the screen is your paper, the turtle is a pen and we can change the colors of the pen.
 - To import python turtle library write line `import turtle`.
-- To setup a screen(paper) we need a varible `s = turtle.Screen()`. By this varible we can set background colours, add images on screen and change the size of screen. In the same way a varible for pen `t = turtle.Turtle()` is use to draw.
-- `turtle.done()` is used to pause the screen after excution of code. Otherwise you can't see the pattern after execution.
-- Start with this simple code and run it then you will get programming environment of python turtle.
+- To set up a screen(paper) we need a variable `s = turtle.Screen()`. By this variable, we can set background colors, add images on the screen and change the size of the screen. In the same way a variable for pen `t = turtle.Turtle()` is used to draw.
+- `turtle. done()` is used to pause the screen after the execution of code. Otherwise, you can't see the pattern after execution.
+- Start with this simple code and run it, then you will get the programming environment of python turtle.
 ```python
 import turtle
 s = turtle.Screen()
