@@ -256,7 +256,7 @@ for i in range(m):
 
 - In inner design we need an outline.
 - To outline design we use same polygon loop but this time without printing pen shape.
-- To project make more intreseting we use different shape of pen `t.shape('turtle')`.
+- To make design more intreseting we use different shape of pen `t.shape('turtle')`.
 ```Python
 t.shape('turtle')
 for i in range(m): 
@@ -268,6 +268,7 @@ for i in range(m):
     
   t.right(360.0/n)
 ```
+![](https://github.com/Sid672/Rangoli/blob/main/c2.png?raw=true)
 
 # Your code looks like this:
 After completing all steps, the code looks like this.
