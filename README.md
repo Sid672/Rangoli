@@ -378,9 +378,9 @@ turtle.done()
 
 # Links of all demos
 ### Rangoli
-[Code Link](https://repl.it/@Siddharthsing13/breakfast#main.py)
+[Code Link](https://repl.it/@Siddharthsing13/rangoli#main.py)
 ### Variations of outer pattern
-[Code Link](https://repl.it/@Siddharthsing13/demobreakfast2#main.py)
+[Code Link](https://repl.it/repls/folder/Rangoli/Variation%20of%20outer%20pattern)
 ### Variations of inner pattern
 [Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
 
