@@ -155,14 +155,13 @@ t.right(270)
 t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
-
-- Next, we use some loops, main loop will repeat 36 times because n = 36.
-- We fill colour in turtle(pen) by `t.fillcolor(col[j])` and change its shape `arrow --> circle`   after that we print it on paper `t.stamp()`.
+- Next, we use loops, the main loop will repeat 36 times because n = 36.
+- We fill color in turtle(pen) by `t.fillcolor(col[j])` and change its shape from `arrow --> circle`   after that we print pen shape on paper `t.stamp()`.
 - Nested loop repeat `int((3 * n) / 4) = 21 times`.
 - Then `t.forward(0.8)`means pen will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees`.
-- To join circle and arrow pen move forward 25 pixels and change its shape again `circle --> arrow` then we print it again.
-- In similar way we repeat next loop in rigth direction to acchive circular path.
-- To change colour of pen use `t.pencolor(colour name)`.
+- To join the circle and arrow, we require `forward(25)` and change its shape `circle --> arrow` to print it again.
+- Similarly, we repeat the next loop in the right direction to achieve a circular path.
+- To change the color of the pen use `t.pencolor(color name)`.
 - But remember our colour container `col = ["red","orange","yellow","green","blue","purple"]` contains only 6 colours numbered from (col[j = 0] = red,.... col[j = 5] = purple).
 - So j can't be greater than and equal to 6. 
 - To maintain j we use condition ` if (j >= 6 ): j = 0 `.
@@ -201,22 +200,22 @@ for i in range(n):
 ![](https://github.com/Sid672/Rangoli/blob/main/outer.PNG?raw=true)
 
 # Inner pattern
-- It is better draw inner pattern sepratly because we can try different combinations with outer pattern.
-- First we set coordinates of coordinates because of outer pattern our cooridnates are not (0, 0).
+- It is better to draw inner patterns separately because we can try different combinations with outer patterns.
+- First, we set coordinates of the inner part because of the outer pattern our coordinates are not (0, 0).
 - So we should correct it. For this we again use `t.up()`, `t.goto(0, 0)` and `t.down()`.
 ```Python 
 t.up()
 t.goto(0, 0)
 t.down()
 ```
-- Now we change the shape of pen `t.shape('arrow')`.
-- Its time to decide shape of inner pattern we can use triangle, square, rectangl,..... any (n-sided) polygon.
-- In this project we are using 10 sided polygon. 
-- We use a loop to draw a polygon `for i in range(n):` then repeat same polygon in circular path `for i in range(m):` is used.
+- Now we change the shape of the pen by `t.shape('arrow')`.
+- It's time to decide the shape of the inner pattern for this, we can use triangle, square, rectangle,..... any (n - sided) polygon.
+- In this project, we are using a 10 sided polygon. 
+- We use a loop to draw a polygon `for i in range(n):` then repeat the same polygon in circular path `for i in range(m):` is used.
 - To draw polygon we move `t.forward(24)`, then turn `t.right(360.0/ n)`.
-- Again we need some colours so we set `t.pencolor("blue")`.
-- To make pattern more beautiful we fill colour in pen and print(`t.stamp()`) it after completing each line.
-- We should turn pen, then it will draw same polygon at different angle. In this way circular path is acchived.
+- Again we need some colors so we set `t.pencolor("blue")`.
+- To make the pattern more beautiful we fill color in the pen and print(`t.stamp()`) shape of the pen at the edges.
+- We should turn the pen, then it will draw the same polygon at different angles. In this way, a circular path is achieved.
 
 ```Python
 #for 10 sided polygon
@@ -262,19 +261,19 @@ for i in range(m):
 - Now we combine all design. Your final design looks like
 ![](https://github.com/Sid672/Rangoli/blob/main/c1.png?raw=true)
 
-- In inner design we need an outline.
-- To outline design we use same polygon loop but this time without printing pen shape.
-- To make design more intreseting we use different shape of pen `t.shape('turtle')`.
+- In inner design, we need an outline.
+- To outline the design we use the same polygon loop but this time without printing pen shape.
+- To make the design more interesting we use a different shape of pen `t.shape('turtle')`.
 ```Python
 t.shape('turtle')
 for i in range(m): 
 
-  for i in range(n):
-    t.pencolor("black")
-    t.forward(30)
-    t.right(360.0/(n))
-    
-  t.right(360.0/n)
+  for i in range(n):
+    t.pencolor("black")
+    t.forward(30)
+    t.right(360.0/(n))
+    
+  t.right(360.0/n)
 ```
 ![](https://github.com/Sid672/Rangoli/blob/main/c2.png?raw=true)
 
@@ -384,9 +383,9 @@ turtle.done()
 # Links of all demos
 ### Rangoli
 [Code Link](https://repl.it/@Siddharthsing13/rangoli#main.py)
-### Variations of outer pattern
+### Variations of  outer pattern
 [Code Link](https://repl.it/repls/folder/Rangoli/Variation%20of%20outer%20pattern)
-### Variations of inner pattern
+### Variations of the inner pattern
 [Code Link](https://repl.it/@Siddharthsing13/v1-1#main.py)
 
 # Happy Hacking:
