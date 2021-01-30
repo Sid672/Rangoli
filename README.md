@@ -382,7 +382,7 @@ turtle.done()
 ### Variations of outer pattern
 [Code Link](https://repl.it/repls/folder/Rangoli/Variation%20of%20outer%20pattern)
 ### Variations of inner pattern
-[Code Link](https://repl.it/@Siddharthsing13/demobreakfast3#main.py)
+[Code Link](https://repl.it/@Siddharthsing13/v1-1#main.py)
 
 # Happy Hacking:
 Now it's your turn to make your Rangoli. You can share your design on [Link](https://hackclub.slack.com/archives/C01504DCLVD). I would love to see your creation. Keep enjoying, keep hacking!
