@@ -138,16 +138,47 @@ t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
 
-- Next we add some for loop, it will repeat 36 times because n = 36, next for loop repeat `int((3 * n) / 4) = 21 times`.
-Then `t.forward(0.8)`means turtle will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees` and turtle move forward 25 pixels.
-
+- Next, we use some loops, main loop will repeat 36 times because n = 36.
+- We fill colour in turtle(pen) by `t.fillcolor(col[j])` and change its shape `arrow --> circle`   after that we print it on paper `t.stamp()`.
+- Nested loop repeat `int((3 * n) / 4) = 21 times`.
+- Then `t.forward(0.8)`means pen will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees`.
+- To join circle and arrow pen move forward 25 pixels and change its shape again `circle --> arrow` then we print it again.
+- In similar way we repeat next loop in rigth direction to acchive circular path.
+- To change colour of pen use `t.pencolor(colour name)`.
+- But remember our colour container `col = ["red","orange","yellow","green","blue","purple"]` contains only 6 colours numbered from (col[j = 0] = red,.... col[j = 5] = purple).
+- So j can't be greater than and equal to 6. 
+- To maintain j we use condition ` if (j >= 6 ): j = 0 `.
 ```Python
+#main loop
 for i in range(n):
+   t.fillcolor(col[j])
+   t.shape('circle')
+   t.stamp()
+   
    #nested loop
    for i in range(int((3 * n) / 4)):
        t.forward(0.8)
        t.left(360/ n)
+   
+   #line to join partterns 
    t.forward(25)
+   t.shape('arrow')
+   t.stamp()
+   
+   for i in range(int((3 * n) / 4)):
+        t.forward(0.8)
+        t.right(360/ n)
+        
+   #line to join patterns     
+   t.left(10)
+   t.forward(25)
+   
+   #colour change of pen
+   t.pencolor(col[j])
+   j = j + 1
+   if (j >= 6 ):
+      j = 0
+
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
 ## Second Loop
