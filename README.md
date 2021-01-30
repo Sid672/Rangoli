@@ -90,7 +90,7 @@ s.setup(626, 313)
 s.bgpic("back.jpg")
 t.speed(0)
 ```
-Add these two lines before `turtle. done()` then run it, we will get our background.
+Add these lines before `turtle. done()` then run it, we will get our background.
 ![](https://github.com/Sid672/Rangoli/blob/main/back2.PNG)
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
@@ -98,24 +98,24 @@ Add these two lines before `turtle. done()` then run it, we will get our backgro
 # Outer Pattern
 
 ## Let's draw
-- `Tip: Before drawing anything on python turtle you should draw it on paper.`
+- `Tip: Before drawing anything on python turtle, you should draw it on paper.`
 
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 
-These are my rough diagram of Rangoli. Don't worry if you are not good in drawing, it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
+These are my rough diagram of Rangoli. Don't worry if you are not good at drawing it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
 
-- We can design outer pattern in lot of varitions. In this project we are using only one variation you can try other variations also.
+- We can design outer patterns in a lot of variations. In this project we are using only one variation you can try other variations also.
 
-- Other variations looks like.
+- Other variations look like.
 ![](https://github.com/Sid672/Rangoli/blob/main/v.png?raw=true)
 
-- Now we should focus back on project design then with simple change in code we can acchive other variations also. 
-- Since all patterns are colour full so we need colours.
-- Original colour of pen is black. We can change colour of pen by using a list.
-- List is like a container so we can store our colours in list `col = ["red","orange","yellow","green","blue","purple"]`. We also need a varible to access the colours `j = 0`. 
+- Now we should focus back on project design then with a simple code change we can achieve other variations also. 
+- Since all patterns are colorful so we need some colors.
+- Original color of the pen is black. We can change the color of a pen by using a list.
+- List is like a container so we can store our colors in it. `col = ["red","orange","yellow","green","blue","purple"]`. We also need a varible to access the colors `j = 0`. 
 ```
 Example- col[j] = red, when j = 0
 col[j] = orange, when j = 1
