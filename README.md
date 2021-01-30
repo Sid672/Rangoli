@@ -124,7 +124,7 @@ t.pencolor("purple")
 - To manage it use `t.up()`. It move pen up from paper.Otherwise if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position)
 pen will make a line between two points.
 - Then set coordinates `t.goto(x, y)` and pen down `t.down()`.
-
+- To get correct coordinate we should test code 2 to 3 times after both pattern are completed.
 ```Python
 t.up()
 t.goto(80, -100)
@@ -190,7 +190,17 @@ for i in range(n):
       j = 0
 
 ```
+![Inamge]()
+
 # Inner pattern
+- We draw inner pattern sepratly.
+- First we set coordinates of coordinates because of outer pattern our cooridnates are not (0, 0).
+- So we should correct it. For this we again use `t.up()`, `t.goto(0, 0)` and `t.down()`.
+```Python 
+t.up()
+t.goto(0, 0)
+t.down()
+```
 
 # Your code looks like this:
 After completing all steps, the code looks like this.
