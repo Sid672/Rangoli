@@ -120,19 +120,20 @@ These are my rough diagram of Rangoli. Don't worry if you are not good at drawin
 Example- col[j] = red, when j = 0
 col[j] = orange, when j = 1
 ```
-- By changing the value of j, we change colour of pen.
-- We should initialize the colour of pen for this `t.pencolor("purple")` is used.
+- By changing the value of j, we can change the color of the pen.
+- We should initialize the color of the pen using `t.pencolor("purple")`.
+
 ```Python
 #Colours :
 col = ["red","orange","yellow","green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
-- We can't draw outer pattern from cetre because if we do that then outer and inner pattern will intersect.
-- To manage it use `t.up()`. It move pen up from paper.Otherwise if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position)
-pen will make a line between two points.
-- Then set coordinates `t.goto(x, y)` and pen down `t.down()`.
-- To get correct coordinate we should test code 2 to 3 times after both pattern are completed.
+- It's not a good idea to draw an outer pattern from the center because if we do that then the outer and inner pattern will intersect.
+- To manage it use `t.up()`. It moves the pen up from the paper. Otherwise, if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position)
+the pen will trace the path between two points.
+- Then set coordinates using `t.goto(x, y)` and pen down  by `t.down()`.
+- To get the coordinate we should run code 2 to 3 times after both patterns code is completed.
 ```Python
 t.up()
 t.goto(80, -100)
@@ -147,8 +148,8 @@ Outer loop:
    Inner loop:
      #body
 ```
-- You have seen that the same pattern is repeated. If you count, you will find that pattern is repeated 36 times. So we need a varible `n = 36`.
-- According to rough diagram we should turn turtle upward `t.right(270)`then move 25 pixels `t.forward(25)`.
+- You have seen that the same pattern is repeated. If you count, you will find that pattern is repeated 36 times. So we need a variable `n = 36`.
+- According to the rough diagram we should turn turtle upward `t.right(270)` then move 25 pixels `t.forward(25)`.
 ```python
 n = 36                                          
 t.right(270)
