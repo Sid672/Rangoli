@@ -193,13 +193,38 @@ for i in range(n):
 ![Inamge]()
 
 # Inner pattern
-- We draw inner pattern sepratly.
+- It is better draw inner pattern sepratly because we can try different combinations with outer pattern.
 - First we set coordinates of coordinates because of outer pattern our cooridnates are not (0, 0).
 - So we should correct it. For this we again use `t.up()`, `t.goto(0, 0)` and `t.down()`.
 ```Python 
 t.up()
 t.goto(0, 0)
 t.down()
+```
+- Now we change the shape of pen `t.shape('arrow')`.
+- Its time to decide shape of inner pattern we can use triangle, square, rectangl,..... any (n-sided) polygon.
+- In this project we are using 10 sided polygon. 
+- We use a loop to draw a polygon `for i in range(n):` then repeat same polygon in circular path `for i in range(m):` is used.
+- To draw polygon we move `t.forward(24)`, then turn `t.right(360.0/ n)`.
+- Again we need some colours so we set `t.pencolor("blue")`.
+- To make pattern more beautiful we fill colour in pen and print(`t.stamp()`) it after completing each line.
+- We should turn pen, then it will draw same polygon at different angle. In this way circular path is acchived.
+
+```Python
+#for 10 sided polygon
+n = 10
+
+#to move in circular path
+m = 10
+
+for i in range(m):
+   for i in range (n):
+       t.forward(24)
+       t.right(360.0/(n))
+       t.pencolor("blue")
+       t.fillcolor("blue")
+       t.stamp()
+   t.right(360.0/n)
 ```
 
 # Your code looks like this:
