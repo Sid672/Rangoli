@@ -5,8 +5,10 @@ author: 'Sid672'
 image: 'https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true'
 ---
 # Rangoli
-Hey!
-Do you know about Rangoli?
+Hey!,
+
+- Do you know about Rangoli?
+
 If yes good!. If no then it's ok. Let me introduce Rangoli according to google `Rangoli is an art form, originating in the Indian subcontinent, in which patterns are created on the floor or the ground using materials such as coloured rice, coloured sand, quartz powder, flower petals, and coloured rocks.`for me its a beautiul pattern. So today, we will draw Rangoli.
 
 ![](https://github.com/Sid672/Rangoli/blob/main/rangoli.PNG?raw=true)
