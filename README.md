@@ -251,8 +251,23 @@ for i in range(m):
    
    t.right(360.0/n)
 ```
-- Now we combine all design. Final design looks like
-![]()
+- Now we combine all design. Your final design looks like
+![](https://github.com/Sid672/Rangoli/blob/main/c1.png?raw=true)
+
+- In inner design we need an outline.
+- To outline design we use same polygon loop but this time without printing pen shape.
+- To project make more intreseting we use different shape of pen `t.shape('turtle')`.
+```Python
+t.shape('turtle')
+for i in range(m): 
+
+  for i in range(n):
+    t.pencolor("black")
+    t.forward(30)
+    t.right(360.0/(n))
+    
+  t.right(360.0/n)
+```
 
 # Your code looks like this:
 After completing all steps, the code looks like this.
