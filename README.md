@@ -190,40 +190,8 @@ for i in range(n):
       j = 0
 
 ```
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_3.PNG?raw=true)
-## Second Loop
-Since the pattern is not the same as the breakfast plate, we need another loop to turn the turtle to move in a circular path, not a  path like the above picture. 
+# Inner pattern
 
-To do this move the turtle in the right direction `t.right(360 / n) = 10 degrees`, with the same forward distance `t.forward(0.8)`.
-
-```python
-    for i in range(int((3 * n) / 4)):
-        t.forward(0.8)
-        t.right(360 / n)
-```
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_5.PNG?raw=true)
-
-The turtle starts drawing a breakfast Plate pattern but in a straight path, not in a circular one. To move in a circle, we need `t.left(10)` and `t.forward(25)`.
-
-```python 
-t.left(10)
-t.forward(25)
-```
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_6.PNG?raw=true)
-
-##  Change pen color
-Change of colour is very important for this `j` is used as an index of col = ["red","orange","yellow","light green","blue","purple"]. Since, `j` cannot be greater than 6 because list contains 7 elements only. So, by using `if (j >= 6 ): j = 0` condtion `j` will equal to 0. Colour changes from red, orange, yellow, light green, blue, purple like in rainbow.
-
-```python
-    t.pencolor(col[j])
-    j = j + 1
-    if (j >= 6 ):
-        j = 0
-
-turtle.done()
-```
-
-![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_8.PNG?raw=true)
 # Your code looks like this:
 After completing all steps, the code looks like this.
 ```python
