@@ -193,7 +193,7 @@ for i in range(n):
       j = 0
 
 ```
-![Inamge]()
+![](https://github.com/Sid672/Rangoli/blob/main/outer.PNG?raw=true)
 
 # Inner pattern
 - It is better draw inner pattern sepratly because we can try different combinations with outer pattern.
