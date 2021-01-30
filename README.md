@@ -226,6 +226,33 @@ for i in range(m):
        t.stamp()
    t.right(360.0/n)
 ```
+- In same way, we will draw two more design with `t.pencolor("green")` and `t.pencolor("red")`.
+```Python
+for i in range (m):
+
+  for i in range(n):
+       t.pencolor("green")
+       t.fillcolor("green")
+       t.forward(26)
+       t.left(360.0/(n))
+       t.stamp()
+  
+  t.left(360.0/n)
+
+
+for i in range(m):
+
+   for i in range(n):
+       t.pencolor("red")
+       t.fillcolor("red")
+       t.forward(28)
+       t.right(360.0/(n))
+       t.stamp()
+   
+   t.right(360.0/n)
+```
+- Now we combine all design. Final design looks like
+![]()
 
 # Your code looks like this:
 After completing all steps, the code looks like this.
