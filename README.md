@@ -78,9 +78,12 @@ turtle.done()
 
 - After uploading image then setup screen size `s.setup(width, height)`. 
 - To set background  `s.bgpic("imagename.png/jpg")` is used.
+- Since our pattern large so we need to move turtle fastest as possible.
+- To do this we use `t.speed(0)`, 0 is used for fastest.
 ```Python
 s.setup(626, 313)
 s.bgpic("back.jpg")
+t.speed(0)
 ```
 Add these two lines before `turtle.done()` then run you will get your background.
 ![](https://github.com/Sid672/Rangoli/blob/main/back2.PNG)
@@ -270,27 +273,44 @@ for i in range(m):
 ```
 ![](https://github.com/Sid672/Rangoli/blob/main/c2.png?raw=true)
 
-# Your code looks like this:
-After completing all steps, the code looks like this.
-```python
+# Combination
+- We should write both codes together.
 
+### Your code looks like this:
+```python
 import turtle
+
+#background
 s = turtle.Screen()
 t = turtle.Turtle()
-#color of background
-turtle.bgcolor("black")
-#color of pen
-col = ["red","orange","yellow","light green","blue","purple"]
+s.setup(626, 313)
+s.bgpic("back.jpg")
+t.speed(0)
+
+#colour
+col = ["red","orange","yellow","green","blue","purple"]
 j = 0
 t.pencolor("purple")
+
+#coordinates
+t.up()
+t.goto(80, -100)
+t.down()
+
+#outer pattern:
 n = 36
 t.right(270)
 t.forward(25)
 for i in range(n):
+   t.fillcolor(col[j])
+   t.shape('circle')
+   t.stamp()
    for i in range(int((3 * n) / 4)):
        t.forward(0.8)
-       t.left(360/ n)
+       t.left(360 / n)
    t.forward(25)
+   t.shape('arrow')
+   t.stamp()
    for i in range(int((3 * n) / 4)):
         t.forward(0.8)
         t.right(360/ n)
@@ -300,6 +320,53 @@ for i in range(n):
    j = j + 1
    if (j >= 6 ):
       j = 0
+
+#inner pattern:
+t.up()
+t.goto(0, 0)
+t.down()
+t.shape('arrow')
+n = 10
+m = 10
+
+#blue design:
+for i in range(m):
+   for i in range (n):
+       t.forward(24)
+       t.right(360.0/(n))
+       t.pencolor("blue")
+       t.fillcolor("blue")
+       t.stamp()
+   t.right(360.0/n)
+   
+#green design:
+for i in range (m):
+  for i in range(n):
+       t.pencolor("green")
+       t.fillcolor("green")
+       t.forward(26)
+       t.left(360.0/(n))
+       t.stamp()
+  t.left(360.0/n)
+  
+#red design:
+for i in range(m):
+   for i in range(n):
+       t.pencolor("red")
+       t.fillcolor("red")
+       t.forward(28)
+       t.right(360.0/(n))
+       t.stamp()
+   t.right(360.0/n)
+
+#outline:
+t.shape('turtle')
+for i in range(m): 
+  for i in range(n):
+    t.pencolor("black")
+    t.forward(30)
+    t.right(360.0/(n))
+  t.right(360.0/n)
 
 turtle.done()
 
