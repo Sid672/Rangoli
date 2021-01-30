@@ -120,6 +120,16 @@ col = ["red","orange","yellow","green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
+- We can't draw outer pattern from cetre because if we do that then outer and inner pattern will intersect.
+- To manage it use `t.up()`. It move pen up from paper.Otherwise if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position)
+pen will make a line between two points.
+- Then set coordinates `t.goto(x, y)` and pen down `t.down()`.
+
+```Python
+t.up()
+t.goto(80, -100)
+t.down()
+```
 We need to understand some terms before drawing.
 - Pixel is the smallest measurable unit on screen.
 - Nested loop
