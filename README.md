@@ -78,21 +78,21 @@ turtle.done()
 - The programming environment for python turtle looks like this:
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_1.PNG?raw=true)
 
-- Now it's time to choose a background image you can download some images or use an image, you have. You should upload that image on your repl first. 
+- Now it's time to choose a background image either from your system or from online sources after download. Upload this image on your repl. 
 - Link of the image used in the project : [link](https://github.com/Sid672/Rangoli/blob/main/back.jpg) 
-- To upload an image click on the last option of `Files` which is above `main.py` then choose Upload file.
+- To upload an image click on the last option of `Files` which is above `main.py` and then choose 'Upload file'.
 ![](https://github.com/Sid672/Rangoli/blob/main/back1.PNG)
 
-- After uploading image then setup screen size `s.setup(width, height)`. 
+- After uploading image, setup screen size `s.setup(width, height)`. 
 - To set background  `s.bgpic("imagename.png/jpg")` is used.
-- Since our pattern large so we need to move turtle fastest as possible.
-- To do this we use `t.speed(0)`, 0 is used for fastest.
+- Since the pattern is large, we need to move the turtle as fast as possible.
+- To do this we use `t.speed(0)`, 0 implies fastest speed.
 ```Python
 s.setup(626, 313)
 s.bgpic("back.jpg")
 t.speed(0)
 ```
-Add these lines before `turtle. done()` then run it, we will get our background.
+Add these lines before `turtle. done()` then run it to get your background.
 ![](https://github.com/Sid672/Rangoli/blob/main/back2.PNG)
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_2.PNG?raw=true)
