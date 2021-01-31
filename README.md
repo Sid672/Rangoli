@@ -17,16 +17,16 @@ Rangoli is an art form, originating in the Indian subcontinent, in which pattern
 [Demo Link](https://repl.it/@Siddharthsing13/rangoli#main.py)
 
 # Let's start
-Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test and show code.  
+Let me introduce " repl. it " to you, its an online platform that runs code in all languages. It's a friendly platform to test code.  
 Now, create a new python project on [repl.it](https://repl.it/languages/python3). 
 
-- You can also follow steps in demo video to create repl.
+- Follow steps in the demo video to create your own repl.
 
 ![](https://media.giphy.com/media/3y8Rl5IC2gKjhfdGLQ/giphy.gif)
 
 # Functions 
-- Before any project, everyone needs some knowledge. Don't worry, you don't need to remember all keywords. Only try to understand the use of         functions.
-- The functions that we use in the program are given below. So at least read it once.
+- Before any project, everyone needs some knowledge. But that doesn't mean you have to remember all the keywords. All you need is an understanding about the needful functions.
+- The functions that we use in this program are given below. Lets go through them once:
 
 
 | Method          | Parameter                              | Description                                                                      |
@@ -50,7 +50,7 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 
 
 #  Steps:
-We can divide the program into four parts.  
+ The program is divided into four parts:  
 - Background
 - Outer pattern
 - Inner pattern
@@ -61,7 +61,7 @@ We can divide the program into four parts.  
 # Background
 
 ### Python turtle library
-- Python turtle library is a popular way for introducing programming to kids. We can make shapes, patterns can learn about functions, loops, variables, and a lot more in programming. It's like baby building blocks for coders.
+- Python turtle library is a popular way to introduce programming to young minds. One can create shapes, patterns, learn about functions, loops, variables, and a lot more in programming. It's like baby building blocks for coders.
 
 We know that before drawing anything we need paper, a pen, and colors. In the python turtle, the screen is your paper, the turtle is a pen and we can change the colors of the pen.
 - To import python turtle library write line `import turtle`.
