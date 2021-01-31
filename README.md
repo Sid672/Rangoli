@@ -104,26 +104,27 @@ Add these lines before `turtle. done()` then run it to get your background.
 
 ![](https://media.giphy.com/media/hmRzYbArCq1i6rFfmo/giphy.gif)
 
-These are my rough diagram of Rangoli. Don't worry if you are not good at drawing it's ok. The rough figure is basically used for calculations of length (in pixels) and angle (in degrees).
+These are my rough creations of Rangoli. 
+Well don't worry if it doesn't turn out to look beautiful, it's ok. This is a rough figure, basically used for calculations of length (in pixels) and angles (in degrees).
 
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_9.PNG?raw=true)
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_10.PNG?raw=true)
 
-- We can design outer patterns in a lot of variations. In this project we are using only one variation you can try other variations also.
+- We can design outer patterns in a lot of variations. In this project we are using only one variation, you can try other variations also.
 
 - Other variations look like.
 ![](https://github.com/Sid672/Rangoli/blob/main/v.png?raw=true)
 
-- Now we should focus back on project design then with a simple code change we can achieve other variations also. 
-- Since all patterns are colorful so we need some colors.
-- Original color of the pen is black. We can change the color of a pen by using a list.
-- List is like a container so we can store our colors in it. `col = ["red","orange","yellow","green","blue","purple"]`. We also need a varible to access the colors `j = 0`. 
+- Now focusing back on the project design with a simple code change we can achieve other variations too. 
+- Since all patterns are colorful, we would need some colors.
+- Original color of the pen is black. We can change the color by using a list.
+- List is like a container in which colors are stored. `col = ["red","orange","yellow","green","blue","purple"]`. We also need a varible to access the colors `j = 0`. 
 ```
 Example- col[j] = red, when j = 0
 col[j] = orange, when j = 1
 ```
 - By changing the value of j, we can change the color of the pen.
-- We should initialize the color of the pen using `t.pencolor("purple")`.
+- We can initialize the color of the pen using `t.pencolor("purple")`.
 
 ```Python
 #Colours :
@@ -131,17 +132,16 @@ col = ["red","orange","yellow","green","blue","purple"]
 j = 0
 t.pencolor("purple")
 ```
-- It's not a good idea to draw an outer pattern from the center because if we do that then the outer and inner pattern will intersect.
-- To manage it use `t.up()`. It moves the pen up from the paper. Otherwise, if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position)
-the pen will trace the path between two points.
-- Then set coordinates using `t.goto(x, y)` and pen down  by `t.down()`.
-- To get the coordinate we should run code 2 to 3 times after both patterns code is completed.
+- It would not be a good idea to draw an outer pattern from the center because that could make the outer and inner pattern intersect.
+- To manage it use `t.up()`.This moves the pen on the paper. Otherwise, if we change coordinates from (0, 0)(initial coordinates) to (x, y)(new position) the pen will trace the path between two points.
+- So, set coordinates using `t.goto(x, y)` and put pen down  by `t.down()`.
+- To get the coordinate we need to run the code two to three times after both patterns codes are completed.
 ```Python
 t.up()
 t.goto(80, -100)
 t.down()
 ```
-We need to understand some terms before drawing.
+Terms we need to understand before drawing:
 - Pixel is the smallest measurable unit on screen.
 - Nested loop
    - loop inside loop.
@@ -150,24 +150,24 @@ Outer loop:
    Inner loop:
      #body
 ```
-- You have seen that the same pattern is repeated. If you count, you will find that pattern is repeated 36 times. So we need a variable `n = 36`.
-- According to the rough diagram we should turn turtle upward `t.right(270)` then move 25 pixels `t.forward(25)`.
+- You can see that the same pattern is being repeated. If count, you would find that the pattern is repeated 36 times. So we need a variable `n = 36`.
+- According to the rough diagram we require to turn the turtle upward `t.right(270)` then move it 25 pixels `t.forward(25)`.
 ```python
 n = 36                                          
 t.right(270)
 t.forward(25)
 ```
 ![](https://github.com/Sid672/Breakfast_plate/blob/main/bk_7.PNG?raw=true)
-- Next, we use loops, the main loop will repeat 36 times because n = 36.
+- Next we use loops, the main loop will repeat 36 times because n = 36.
 - We fill color in turtle(pen) by `t.fillcolor(col[j])` and change its shape from `arrow --> circle`   after that we print pen shape on paper `t.stamp()`.
 - Nested loop repeat `int((3 * n) / 4) = 21 times`.
 - Then `t.forward(0.8)`means pen will move 0.8 pixel , `t.left(360/ n)` turn left 10 degrees because `360/ n = 10 degrees`.
 - To join the circle and arrow, we require `forward(25)` and change its shape `circle --> arrow` to print it again.
-- Similarly, we repeat the next loop in the right direction to achieve a circular path.
+- We then repeat the next loop in right direction to create a circular path.
 - To change the color of the pen use `t.pencolor(color name)`.
-- But remember our colour container `col = ["red","orange","yellow","green","blue","purple"]` contains only 6 colours numbered from (col[j = 0] = red,.... col[j = 5] = purple).
-- So j can't be greater than and equal to 6. 
-- To maintain j we use condition ` if (j >= 6 ): j = 0 `.
+- But remember our color container `col = ["red","orange","yellow","green","blue","purple"]` contains only 6 colors numbered from (col[j = 0] = red,.... col[j = 5] = purple).
+- Therefore, j can't be greater than and equal to 6. 
+- To maintain j we can use condition ` if (j >= 6 ): j = 0 `.
 ```Python
 #main loop
 for i in range(n):
