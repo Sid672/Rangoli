@@ -203,22 +203,22 @@ for i in range(n):
 ![](https://github.com/Sid672/Rangoli/blob/main/outer.PNG?raw=true)
 
 # Inner pattern
-- It is better to draw inner patterns separately because we can try different combinations with outer patterns.
-- First, we set coordinates of the inner part because of the outer pattern our coordinates are not (0, 0).
-- So we should correct it. For this we again use `t.up()`, `t.goto(0, 0)` and `t.down()`.
+- It is better to draw the inner patterns separately so that we can try different combinations with outer patterns.
+- First, we set coordinates of the inner pattern since the outer pattern coordinates are not (0, 0).
+- Now correcting the coordinates, we again use `t.up()`, `t.goto(0, 0)` and `t.down()`.
 ```Python 
 t.up()
 t.goto(0, 0)
 t.down()
 ```
 - Now we change the shape of the pen by `t.shape('arrow')`.
-- It's time to decide the shape of the inner pattern for this, we can use triangle, square, rectangle,..... any (n - sided) polygon.
-- In this project, we are using a 10 sided polygon. 
-- We use a loop to draw a polygon `for i in range(n):` then repeat the same polygon in circular path `for i in range(m):` is used.
-- To draw polygon we move `t.forward(24)`, then turn `t.right(360.0/ n)`.
-- Again we need some colors so we set `t.pencolor("blue")`.
-- To make the pattern more beautiful we fill color in the pen and print(`t.stamp()`) shape of the pen at the edges.
-- We should turn the pen, then it will draw the same polygon at different angles. In this way, a circular path is achieved.
+- It's time to decide the shape of the inner pattern, for this we can use a triangle, a square, a rectangle, or any other (n - sided) polygon.
+- For this project, we are using a 10 sided polygon. 
+- We use a loop to draw a polygon `for i in range(n):` then repeat the same polygon in a circular path `for i in range(m):`.
+- To draw a polygon we move `t.forward(24)`, then turn `t.right(360.0/ n)`.
+- Since we need some colors again, so we set `t.pencolor("blue")`.
+- To make the pattern more beautiful we fill colors in the pen and then print(`t.stamp()`) the shape of the pen at the edges.
+- We need to turn the pen to draw the same polygon at different angles. In this way a circular path can be achieved.
 
 ```Python
 #for 10 sided polygon
@@ -236,7 +236,7 @@ for i in range(m):
        t.stamp()
    t.right(360.0/n)
 ```
-- In same way, we will draw two more design with `t.pencolor("green")` and `t.pencolor("red")`.
+- Similarly, we can draw two more designs with `t.pencolor("green")` and `t.pencolor("red")`.
 ```Python
 for i in range (m):
 
@@ -261,12 +261,13 @@ for i in range(m):
    
    t.right(360.0/n)
 ```
-- Now we combine all design. Your final design looks like
+- Now we combine all designs. 
+
+Your final design looks like
 ![](https://github.com/Sid672/Rangoli/blob/main/c1.png?raw=true)
 
-- In inner design, we need an outline.
-- To outline the design we use the same polygon loop but this time without printing pen shape.
-- To make the design more interesting we use a different shape of pen `t.shape('turtle')`.
+- If you need an outline in the inner the design, we use the same polygon loop but this time without printing the pen's shape.
+- To make the design more interesting we use a different shapes of the pen `t.shape('turtle')`.
 ```Python
 t.shape('turtle')
 for i in range(m): 
@@ -281,7 +282,7 @@ for i in range(m):
 ![](https://github.com/Sid672/Rangoli/blob/main/c2.png?raw=true)
 
 # Combination
-- We should write both codes together.
+- For combination we need to write both codes together.
 
 ### Your code looks like this:
 ```python
@@ -392,4 +393,7 @@ turtle.done()
 [Code Link](https://repl.it/@Siddharthsing13/v1-1#main.py)
 
 # Happy Hacking:
-Now it's your turn to make your Rangoli. You can share your design on [Link](https://hackclub.slack.com/archives/C01504DCLVD). I would love to see your creation. Keep enjoying, keep hacking!
+Hey, 
+Now it's your turn to make your own Rangoli. 
+Share your designs on [Link](https://hackclub.slack.com/archives/C01504DCLVD). 
+I would love to see your creations. Keep enjoying and keep hacking!
