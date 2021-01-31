@@ -61,13 +61,14 @@ Now, create a new python project on [repl.it](https://repl.it/languages/python3)
 # Background
 
 ### Python turtle library
-- Python turtle library is a popular way to introduce programming to young minds. One can create shapes, patterns, learn about functions, loops, variables, and a lot more in programming. It's like baby building blocks for coders.
+- Python turtle library is a popular way to introduce programming to young minds. One can create shapes, patterns, learn about functions, loops, variables and a lot more while programming. 
 
-We know that before drawing anything we need paper, a pen, and colors. In the python turtle, the screen is your paper, the turtle is a pen and we can change the colors of the pen.
-- To import python turtle library write line `import turtle`.
+Programming is the building block for all coders. Like while drawing we need paper, pen and colors. In the python turtle, screen becomes your paper, turtle your pen and colors are all in the pen.
+
+- To import python turtle library write `import turtle`.
 - To set up a screen(paper) we need a variable `s = turtle.Screen()`. By this variable, we can set background colors, add images on the screen and change the size of the screen. In the same way a variable for pen `t = turtle.Turtle()` is used to draw.
-- `turtle. done()` is used to pause the screen after the execution of code. Otherwise, you can't see the pattern after execution.
-- Start with this simple code and run it, then you will get the programming environment of python turtle.
+- `turtle. done()` is used to pause the screen after the execution of code. Otherwise, one can't see the pattern after execution.
+- One can start with this simple code and run it to get warmed up with the programming environment of python turtle.
 ```python
 import turtle
 s = turtle.Screen()
