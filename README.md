@@ -394,6 +394,6 @@ turtle.done()
 
 # Happy Hacking:
 Hey, 
-Now it's your turn to make your own Rangoli. 
+now it's your turn to make your own Rangoli. 
 Share your designs on [Link](https://hackclub.slack.com/archives/C01504DCLVD). 
 I would love to see your creations. Keep enjoying and keep hacking!
